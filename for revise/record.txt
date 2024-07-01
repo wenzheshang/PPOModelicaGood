@@ -1,0 +1,227 @@
+
+
+# def run(args):
+
+#     fail_time = 0
+#     reward_fail_time = 0
+
+#     result_root = 'C:\\Users\\Xilei Dai\\Documents\\Result for IAQ'
+#     # write the folder to save model
+#     if os.path.exists(result_root) == False:
+#         result_root = 'E:\\ModelicaResult'
+
+#     stop = False
+#     run_id = id_generator()
+#     run_root = os.path.join(result_root,'v01')
+#     run_root = os.path.join(run_root,run_id)
+#     while os.path.exists(run_root):
+#         run_id = id_generator()
+#         run_root = os.path.join(result_root,'v01')
+#         run_root = os.path.join(run_root,run_id)
+#     os.mkdir(run_root)
+
+#     with open(os.path.join(run_root,'commandline_args.txt'), 'w') as f:
+#         json.dump(args.__dict__, f, indent=2)
+#         f.close()
+    
+#     # parser = argparse.ArgumentParser()
+#     # args = parser.parse_args()
+#     # with open('commandline_args.txt', 'r') as f:
+#     # args.__dict__ = json.load(f)
+
+#     model_behaviror = actor(args.Dropout)
+#     if args.opt_method == 'SGD':
+#         optimizer = torch.optim.SGD(model_behaviror.parameters(), lr=args.lr,momentum=args.momentum)
+#     elif args.opt_method == 'Adam':
+#         optimizer = torch.optim.Adam(model_behaviror.parameters(), lr=args.lr)
+
+#     # print("\nInitializing weights...")
+#     # for name, param in model_behaviror.named_parameters():
+#     #     if 'bias' in name:
+#     #         torch.nn.init.normal_(param,0,0.1)
+#     #     elif 'weight' in name:
+#     #         torch.nn.init.normal_(param,0,0.05)
+
+#     model_target = copy.deepcopy(model_behaviror)
+
+#     critic_behaviror = critic(args.Dropout)
+#     if args.opt_method == 'SGD':
+#         optimizer = torch.optim.SGD(model_behaviror.parameters(), lr=args.lr_critic,momentum=args.momentum)
+#     elif args.opt_method == 'Adam':
+#         optimizer = torch.optim.Adam(model_behaviror.parameters(), lr=args.lr_critic)
+
+#     critic_target = copy.deepcopy(critic_behaviror)
+
+#     scheduler = torch.optim.lr_scheduler.StepLR(optimizer, args.step_size,args.lr_gamma)
+#     loss_fun = nn.SmoothL1Loss()
+#     loss_his = []
+#     model_behaviror.train()#eval
+#     model_target.train()
+#     best_reward = -100
+#     os.mkdir(os.path.join(run_root,'EP_file'))
+    
+#     # arf_pre = pd.read_csv('arf.csv')
+#     source_pre = pd.read_csv('source.csv')
+
+
+#     for i in range(args.epoch):   
+#         ##########  ========= Play Game =================
+#         # os.mkdir(os.path.join(epoch_path,'EP_file'))
+#         env = Game(args.w_pm,  args.w_energy, args.w_dp,source_pre,model_behaviror, args.greedy)
+#         env.runEp()
+#         end = time.time()
+#         env.summary_result()
+#         # env.simu_pollutant()
+#         env.cal_reward()
+#         env.normalize_input()
+#         # print()
+#         # env.output_result()
+#         # env_epoch = pd.read_csv(os.path.join(epoch_path, 'result.csv'))
+#         env_epoch = env.my_dataframe
+#         if env.mean_reward > best_reward:
+#             best_reward = copy.deepcopy(env.mean_reward)
+#             reward_fail_time = 0
+#         else:
+#             reward_fail_time += 1
+        
+#         # For tuning.........
+#         #if (np.mean(env_epoch['pm_in']) < 23.173) & (np.mean(env_epoch['action']) < 0.4) & (np.sum(env_epoch['pm_in']>15)<889):
+#         if True :
+#             epoch_path = os.path.join(run_root, format(i,'05d'))
+#             os.mkdir(epoch_path)            
+#         # if True:
+#             if (i % args.save_step == 0):
+#                 try_time = 0
+#                 torch.save(model_behaviror.state_dict(),os.path.join(epoch_path,'Actor.pth'))
+#                 env.output_result(os.path.join(epoch_path,'result.csv'))
+#                 # fail_time = 0
+#                 while try_time<=10:
+#                     try:
+#                         epoch_result('Tune_summary_new.csv', run_id, i, env_epoch, args)
+#                         try_time = 0
+#                         break
+#                     except:
+#                         print('Please close Tune_summary_new file', flush = True)
+#                         try_time+=1
+#                         time.sleep(1)
+#                 if try_time > 10:
+#                     while try_time<20:
+#                         try:
+#                             epoch_result('Tune_summary-backup.csv',
+#                                         run_id, i, env_epoch, args)
+#                             try_time = 0
+#                             break
+#                         except:
+#                             print('Please close Tune_summary_new file', flush = True)
+#                             try_time+=1
+#                             time.sleep(1)
+#                 if try_time>=20:
+#                     stop = True
+#                     reason = 'Fail to write report'
+#         else:
+#             fail_time +=1
+        
+
+#         train_dataset = load_dataset(env_epoch)
+#         train_loader = data.DataLoader(train_dataset, batch_size=args.bs, shuffle=True, drop_last=True)              
+#         loss_epoch = []
+#         input_dim = 6
+#         for replay in range(args.replay_time):
+#             for batch in train_loader:
+#                 s1 = torch.zeros([args.bs, input_dim])
+#                 s2 = torch.zeros([args.bs, input_dim])
+#                 r = batch[2]
+#                 a1 = torch.zeros([args.bs, input_dim])
+#                 #torch.zeros([args.bs, input_dim])
+#                 q = torch.zeros(args.bs)
+#                 for k in range(input_dim):
+#                     s1[:, k] = batch[0][k]
+#                     s2[:, k] = batch[1][k]
+#                     a1[:, k] = batch[3][k]
+#                 q = critic_behaviror(s1.float(),a1.float())
+#                 # for j in range(a.shape[0]):
+#                 #     q[j] = q1[j][a[j]]
+#                 a2 = model_target(s2.float())
+#                 with torch.no_grad():
+#                     q2 = critic_target(s2.float(),a2.float())
+#                     # q2 = model_target(s2.float())
+#                     #q2 = torch.max(q2, dim = 1)[0]
+#                     target_q_values = args.q_gamma * q2.float() + r.float()
+#                 # loss = (r.float() + q2.float() - q.float()).unsqueeze(0)
+#                 # loss = ( - ).unsqueeze(0)
+#                 loss = loss_fun(q.type(torch.DoubleTensor), target_q_values.type(torch.DoubleTensor))            
+#                 optimizer.zero_grad()
+#                 # Compute gradients
+#                 loss.mean().backward()
+#                 # torch.nn.utils.clip_grad_norm_(model.parameters(), max_norm=2)
+#                 optimizer.step()
+#                 loss_epoch.append(loss.detach().numpy())
+#                 # with open(os.path.join(run_root, 'loss_log_stepwise.txt'),'a') as f:
+#                 #     f.write(str(loss.detach().numpy()))
+#                 #     f.write('\n')
+#                 #     f.close()
+#         # scheduler.step()
+#         loss_avg = round(np.mean(loss_epoch),5)
+#         loss_his.append(loss_avg)
+#         if loss_avg is NaN:
+#             print('==============Loss is NAN=================')
+#             stop = True
+#             reason = 'NaN'
+#         if i <= args.tau * 10:
+#             reward_fail_time = 0
+#             fail_time = 0
+#         if fail_time > 30:
+#             reason = 'No achieved good IAQ'
+#             stop = True
+#         if reward_fail_time > 50:
+#             reason = 'reward not increase'
+#             stop = True
+#         with open(os.path.join(run_root, 'loss_log.txt'),'a') as f:
+#             f.write(str(loss_his[i]))
+#             f.write('\n')
+#             f.close()
+#         if stop:
+#             with open(os.path.join(run_root,'Stop_reason.txt'),'w') as f:
+#                 f.write(reason)
+#                 f.write('\n')
+#                 f.close()
+#             with open(os.path.join(pathlib.Path(__file__).parent.resolve(), 'Bad_stop_summary.csv'),'a') as fd:
+#                 fd.write(run_id)
+#                 fd.write(',')
+#                 fd.write(reason)
+#                 fd.write(',')
+#                 fd.write(str(round(args.Dropout,0)))
+#                 fd.write(',')
+#                 fd.write(str(round(args.lr_gamma,2)))
+#                 fd.write(',')
+#                 fd.write(str(round(args.lr,5)))
+#                 fd.write(',')
+#                 fd.write(str(round(args.q_gamma,2)))
+#                 fd.write(',')
+#                 fd.write(str(round(args.greedy,2)))
+#                 fd.write(',')
+#                 fd.write(str(args.step_size))
+#                 fd.write(',')
+#                 fd.write(str(args.tau))
+#                 fd.write(',')
+#                 fd.write(str(args.replay_time))
+#                 fd.write(',')
+#                 fd.write(str(round(args.w_comfort,2)))
+#                 fd.write(',')
+#                 fd.write(str(round(args.w_pm,2)))                
+#                 fd.write('\n')
+#                 fd.close()
+#             break
+
+#         if i % args.tau ==0 and i > 0:
+#             model_target = copy.deepcopy(model_behaviror)
+#             scheduler.step()
+
+#             ### reset optimizer and learning rate
+#             # if args.opt_method == 'SGD':
+#             #     optimizer = torch.optim.SGD(model_behaviror.parameters(), lr=args.lr,momentum=args.momentum)
+#             # elif args.opt_method == 'Adam':
+#             #     optimizer = torch.optim.Adam(model_behaviror.parameters(), lr=args.lr)
+#             # scheduler = torch.optim.lr_scheduler.StepLR(optimizer, args.step_size,args.lr_gamma)
+
+#         shutil.rmtree(os.path.join(epoch_path,'EP_file'))

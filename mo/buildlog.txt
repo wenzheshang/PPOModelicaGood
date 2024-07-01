@@ -1,0 +1,9 @@
+ 
+Compiling and linking the model (Visual C++). 
+ 
+dsmodel.c
+dsmodel.c(2866) : warning C4244: “函数”: 从“double”转换到“int”，可能丢失数据
+   正在创建库 dymosim.lib 和对象 dymosim.exp
+ 
+Successful generation of Dymosim. 
+ 

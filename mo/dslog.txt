@@ -1,0 +1,35 @@
+Log-file of program ./dymosim
+(generated: Mon Jul 01 02:26:56 2024)
+
+dymosim started
+... "dsin.txt" loading (dymosim input file)
+fan11.nominalValuesDefineDefaultPressureCurve
+The following was detected at time: 0
+*** Warning: You are using a flow or pressure controlled mover with the
+             default pressure curve.
+             This leads to approximate calculations of the electrical power
+             consumption. Add the correct pressure curve in the record per
+             to obtain an accurate computation.
+             Setting nominalValuesDefineDefaultPressureCurve=true will suppress this warning.
+... "f:\\Thinking\\program\\PPOOPT_Modelica_good/Workdata/Dymola_python/2024-06-30_15-29\\demo_results.mat" creating (simulation result file)
+
+Integration started at T = 0 using integration method DASSL
+(DAE multi-step solver (dassl/dasslrt of Petzold modified by Dynasim))
+Integration terminated successfully at T = 86400
+   CPU-time for integration      : 0.727 seconds
+   CPU-time for one GRID interval: 1.45 milli-seconds
+   Number of result points       : 554
+   Number of GRID   points       : 501
+   Number of (successful) steps  : 2905
+   Number of F-evaluations       : 42186
+   Number of H-evaluations       : 3461
+   Number of Jacobian-evaluations: 2314
+   Number of (model) time events : 25
+   Number of (U) time events     : 0
+   Number of state    events     : 3
+   Number of step     events     : 0
+   Minimum integration stepsize  : 5.85e-011
+   Maximum integration stepsize  : 1.08e+004
+   Maximum integration order     : 2
+Calling terminal section
+... "dsfinal.txt" creating (final states)

@@ -1,0 +1,6 @@
+mingw32-make: Entering directory 'C:/Users/ADMINI~1/AppData/Local/Temp/OPENMO~1/OMEdit/DQLVEN~1.FBS'
+rm -f DQLVentilation_fbs_0513.fmutmp/sources/DQLVentilation_fbs_0513_init.xml
+cp -a "D:/OM/share/omc/runtime/c/fmi/buildproject/"* DQLVentilation_fbs_0513.fmutmp/sources
+cp -a DQLVentilation_fbs_0513_FMU.libs DQLVentilation_fbs_0513.fmutmp/sources/
+mingw32-make: Leaving directory 'C:/Users/ADMINI~1/AppData/Local/Temp/OPENMO~1/OMEdit/DQLVEN~1.FBS'
+RESULT: 0 

@@ -1,0 +1,1630 @@
+,Time,VarName,Value
+0,86400.0,C1,2003.611572265625
+1,86400.0,C2,2003.611572265625
+2,86400.0,C3,2003.611572265625
+3,86400.0,C_h,779.787841796875
+4,86400.0,C_s,6678705.5
+5,86400.0,C_x,1000000000.0
+6,86400.0,D,0.0
+7,86400.0,G_p,39276180.0
+8,86400.0,G_s_1,0.0
+9,86400.0,G_s_2,0.0
+10,86400.0,G_s_3,0.0
+11,86400.0,GasRoom.T,293.1499938964844
+12,86400.0,GasRoom.T_start,293.1499938964844
+13,86400.0,GasRoom.U,-826203.6875
+14,86400.0,GasRoom.V,17.81999969482422
+15,86400.0,GasRoom.X_start[1],0.009999999776482582
+16,86400.0,GasRoom.X_start[2],0.9900000095367432
+17,86400.0,GasRoom.Xi[1],0.009999999776482582
+18,86400.0,GasRoom.allowFlowReversal,1.0
+19,86400.0,GasRoom.energyDynamics,2.0
+20,86400.0,GasRoom.heatPort.Q_flow,0.0
+21,86400.0,GasRoom.heatPort.T,293.1499938964844
+22,86400.0,GasRoom.m,21.11079216003418
+23,86400.0,GasRoom.mSenFac,1.0
+24,86400.0,GasRoom.mXi[1],0.21110792458057404
+25,86400.0,GasRoom.m_flow_nominal,10.0
+26,86400.0,GasRoom.m_flow_small,0.0010000000474974513
+27,86400.0,GasRoom.massDynamics,2.0
+28,86400.0,GasRoom.nPorts,8.0
+29,86400.0,GasRoom.p,100030.4453125
+30,86400.0,GasRoom.p_start,101325.0
+31,86400.0,GasRoom.ports[1].Xi_outflow[1],0.009999999776482582
+32,86400.0,GasRoom.ports[1].h_outflow,45300.9453125
+33,86400.0,GasRoom.ports[1].m_flow,0.07109999656677246
+34,86400.0,GasRoom.ports[1].p,100030.4453125
+35,86400.0,GasRoom.ports[2].Xi_outflow[1],0.009999999776482582
+36,86400.0,GasRoom.ports[2].h_outflow,45300.9453125
+37,86400.0,GasRoom.ports[2].m_flow,-0.06909999996423721
+38,86400.0,GasRoom.ports[2].p,100030.4453125
+39,86400.0,GasRoom.ports[3].Xi_outflow[1],0.009999999776482582
+40,86400.0,GasRoom.ports[3].h_outflow,45300.9453125
+41,86400.0,GasRoom.ports[3].m_flow,-0.013701027259230614
+42,86400.0,GasRoom.ports[3].p,100030.4453125
+43,86400.0,GasRoom.ports[4].Xi_outflow[1],0.009999999776482582
+44,86400.0,GasRoom.ports[4].h_outflow,45300.9453125
+45,86400.0,GasRoom.ports[4].m_flow,0.009267724119126797
+46,86400.0,GasRoom.ports[4].p,100030.4453125
+47,86400.0,GasRoom.ports[5].Xi_outflow[1],0.009999999776482582
+48,86400.0,GasRoom.ports[5].h_outflow,45300.9453125
+49,86400.0,GasRoom.ports[5].m_flow,0.002433303277939558
+50,86400.0,GasRoom.ports[5].p,100030.4453125
+51,86400.0,GasRoom.ports[6].Xi_outflow[1],0.009999999776482582
+52,86400.0,GasRoom.ports[6].h_outflow,45300.9453125
+53,86400.0,GasRoom.ports[6].m_flow,0.0
+54,86400.0,GasRoom.ports[6].p,100030.4453125
+55,86400.0,GasRoom.ports[7].Xi_outflow[1],0.009999999776482582
+56,86400.0,GasRoom.ports[7].h_outflow,45300.9453125
+57,86400.0,GasRoom.ports[7].m_flow,0.0
+58,86400.0,GasRoom.ports[7].p,100030.4453125
+59,86400.0,GasRoom.ports[8].Xi_outflow[1],0.009999999776482582
+60,86400.0,GasRoom.ports[8].h_outflow,45300.9453125
+61,86400.0,GasRoom.ports[8].m_flow,0.0
+62,86400.0,GasRoom.ports[8].p,100030.4453125
+63,86400.0,GasRoom.prescribedHeatFlowRate,0.0
+64,86400.0,GasRoom.simplify_mWat_flow,1.0
+65,86400.0,GasRoom.substanceDynamics,2.0
+66,86400.0,GasRoom.traceDynamics,2.0
+67,86400.0,GasRoom.use_C_flow,0.0
+68,86400.0,GasRoom1.T,293.1499938964844
+69,86400.0,GasRoom1.T_start,293.1499938964844
+70,86400.0,GasRoom1.U,-862450.25
+71,86400.0,GasRoom1.V,18.600000381469727
+72,86400.0,GasRoom1.X_start[1],0.009999999776482582
+73,86400.0,GasRoom1.X_start[2],0.9900000095367432
+74,86400.0,GasRoom1.Xi[1],0.009999999776482582
+75,86400.0,GasRoom1.allowFlowReversal,1.0
+76,86400.0,GasRoom1.energyDynamics,2.0
+77,86400.0,GasRoom1.heatPort.Q_flow,0.0
+78,86400.0,GasRoom1.heatPort.T,293.1499938964844
+79,86400.0,GasRoom1.m,22.036949157714844
+80,86400.0,GasRoom1.mSenFac,1.0
+81,86400.0,GasRoom1.mXi[1],0.22036948800086975
+82,86400.0,GasRoom1.m_flow_nominal,10.0
+83,86400.0,GasRoom1.m_flow_small,0.0010000000474974513
+84,86400.0,GasRoom1.massDynamics,2.0
+85,86400.0,GasRoom1.nPorts,8.0
+86,86400.0,GasRoom1.p,100040.046875
+87,86400.0,GasRoom1.p_start,101325.0
+88,86400.0,GasRoom1.ports[1].Xi_outflow[1],0.009999999776482582
+89,86400.0,GasRoom1.ports[1].h_outflow,45300.9453125
+90,86400.0,GasRoom1.ports[1].m_flow,0.21234482526779175
+91,86400.0,GasRoom1.ports[1].p,100040.046875
+92,86400.0,GasRoom1.ports[2].Xi_outflow[1],0.009999999776482582
+93,86400.0,GasRoom1.ports[2].h_outflow,45300.9453125
+94,86400.0,GasRoom1.ports[2].m_flow,-0.18634483218193054
+95,86400.0,GasRoom1.ports[2].p,100040.046875
+96,86400.0,GasRoom1.ports[3].Xi_outflow[1],0.009999999776482582
+97,86400.0,GasRoom1.ports[3].h_outflow,45300.9453125
+98,86400.0,GasRoom1.ports[3].m_flow,-0.014207988977432251
+99,86400.0,GasRoom1.ports[3].p,100040.046875
+100,86400.0,GasRoom1.ports[4].Xi_outflow[1],0.009999999776482582
+101,86400.0,GasRoom1.ports[4].h_outflow,45300.9453125
+102,86400.0,GasRoom1.ports[4].m_flow,-0.009358707815408707
+103,86400.0,GasRoom1.ports[4].p,100040.046875
+104,86400.0,GasRoom1.ports[5].Xi_outflow[1],0.009999999776482582
+105,86400.0,GasRoom1.ports[5].h_outflow,45300.9453125
+106,86400.0,GasRoom1.ports[5].m_flow,-0.002433303277939558
+107,86400.0,GasRoom1.ports[5].p,100040.046875
+108,86400.0,GasRoom1.ports[6].Xi_outflow[1],0.009999999776482582
+109,86400.0,GasRoom1.ports[6].h_outflow,45300.9453125
+110,86400.0,GasRoom1.ports[6].m_flow,0.0
+111,86400.0,GasRoom1.ports[6].p,100040.046875
+112,86400.0,GasRoom1.ports[7].Xi_outflow[1],0.009999999776482582
+113,86400.0,GasRoom1.ports[7].h_outflow,45300.9453125
+114,86400.0,GasRoom1.ports[7].m_flow,0.0
+115,86400.0,GasRoom1.ports[7].p,100040.046875
+116,86400.0,GasRoom1.ports[8].Xi_outflow[1],0.009999999776482582
+117,86400.0,GasRoom1.ports[8].h_outflow,45300.9453125
+118,86400.0,GasRoom1.ports[8].m_flow,0.0
+119,86400.0,GasRoom1.ports[8].p,100040.046875
+120,86400.0,GasRoom1.prescribedHeatFlowRate,0.0
+121,86400.0,GasRoom1.simplify_mWat_flow,1.0
+122,86400.0,GasRoom1.substanceDynamics,2.0
+123,86400.0,GasRoom1.traceDynamics,2.0
+124,86400.0,GasRoom1.use_C_flow,0.0
+125,86400.0,GasRoom2.T,293.1499938964844
+126,86400.0,GasRoom2.T_start,293.1499938964844
+127,86400.0,GasRoom2.U,-978323.5625
+128,86400.0,GasRoom2.V,21.100000381469727
+129,86400.0,GasRoom2.X_start[1],0.009999999776482582
+130,86400.0,GasRoom2.X_start[2],0.9900000095367432
+131,86400.0,GasRoom2.Xi[1],0.009999999776482582
+132,86400.0,GasRoom2.allowFlowReversal,1.0
+133,86400.0,GasRoom2.energyDynamics,2.0
+134,86400.0,GasRoom2.heatPort.Q_flow,0.0
+135,86400.0,GasRoom2.heatPort.T,293.1499938964844
+136,86400.0,GasRoom2.m,24.997692108154297
+137,86400.0,GasRoom2.mSenFac,1.0
+138,86400.0,GasRoom2.mXi[1],0.24997693300247192
+139,86400.0,GasRoom2.m_flow_nominal,10.0
+140,86400.0,GasRoom2.m_flow_small,0.0010000000474974513
+141,86400.0,GasRoom2.massDynamics,2.0
+142,86400.0,GasRoom2.nPorts,8.0
+143,86400.0,GasRoom2.p,100035.203125
+144,86400.0,GasRoom2.p_start,101325.0
+145,86400.0,GasRoom2.ports[1].Xi_outflow[1],0.009999999776482582
+146,86400.0,GasRoom2.ports[1].h_outflow,45300.9453125
+147,86400.0,GasRoom2.ports[1].m_flow,0.1657463014125824
+148,86400.0,GasRoom2.ports[1].p,100035.203125
+149,86400.0,GasRoom2.ports[2].Xi_outflow[1],0.009999999776482582
+150,86400.0,GasRoom2.ports[2].h_outflow,45300.9453125
+151,86400.0,GasRoom2.ports[2].m_flow,-0.03209098428487778
+152,86400.0,GasRoom2.ports[2].p,100035.203125
+153,86400.0,GasRoom2.ports[3].Xi_outflow[1],0.009999999776482582
+154,86400.0,GasRoom2.ports[3].h_outflow,45300.9453125
+155,86400.0,GasRoom2.ports[3].m_flow,-0.13374629616737366
+156,86400.0,GasRoom2.ports[3].p,100035.203125
+157,86400.0,GasRoom2.ports[4].Xi_outflow[1],0.009999999776482582
+158,86400.0,GasRoom2.ports[4].h_outflow,45300.9453125
+159,86400.0,GasRoom2.ports[4].m_flow,-0.009267724119126797
+160,86400.0,GasRoom2.ports[4].p,100035.203125
+161,86400.0,GasRoom2.ports[5].Xi_outflow[1],0.009999999776482582
+162,86400.0,GasRoom2.ports[5].h_outflow,45300.9453125
+163,86400.0,GasRoom2.ports[5].m_flow,0.009358707815408707
+164,86400.0,GasRoom2.ports[5].p,100035.203125
+165,86400.0,GasRoom2.ports[6].Xi_outflow[1],0.009999999776482582
+166,86400.0,GasRoom2.ports[6].h_outflow,45300.9453125
+167,86400.0,GasRoom2.ports[6].m_flow,0.0
+168,86400.0,GasRoom2.ports[6].p,100035.203125
+169,86400.0,GasRoom2.ports[7].Xi_outflow[1],0.009999999776482582
+170,86400.0,GasRoom2.ports[7].h_outflow,45300.9453125
+171,86400.0,GasRoom2.ports[7].m_flow,0.0
+172,86400.0,GasRoom2.ports[7].p,100035.203125
+173,86400.0,GasRoom2.ports[8].Xi_outflow[1],0.009999999776482582
+174,86400.0,GasRoom2.ports[8].h_outflow,45300.9453125
+175,86400.0,GasRoom2.ports[8].m_flow,0.0
+176,86400.0,GasRoom2.ports[8].p,100035.203125
+177,86400.0,GasRoom2.prescribedHeatFlowRate,0.0
+178,86400.0,GasRoom2.simplify_mWat_flow,1.0
+179,86400.0,GasRoom2.substanceDynamics,2.0
+180,86400.0,GasRoom2.traceDynamics,2.0
+181,86400.0,GasRoom2.use_C_flow,0.0
+182,86400.0,Q_h,0.3891911208629608
+183,86400.0,combiTimeTable.columns[1],2.0
+184,86400.0,combiTimeTable.columns[2],3.0
+185,86400.0,combiTimeTable.columns[3],4.0
+186,86400.0,combiTimeTable.columns[4],5.0
+187,86400.0,combiTimeTable.extrapolation,2.0
+188,86400.0,combiTimeTable.nout,4.0
+189,86400.0,combiTimeTable.offset[1],0.0
+190,86400.0,combiTimeTable.smoothness,3.0
+191,86400.0,combiTimeTable.startTime,0.0
+192,86400.0,combiTimeTable.t_max,86400.0
+193,86400.0,combiTimeTable.t_maxScaled,86400.0
+194,86400.0,combiTimeTable.t_min,0.0
+195,86400.0,combiTimeTable.t_minScaled,0.0
+196,86400.0,combiTimeTable.tableOnFile,0.0
+197,86400.0,"combiTimeTable.table[1, 1]",0.0
+198,86400.0,"combiTimeTable.table[1, 2]",0.23100000619888306
+199,86400.0,"combiTimeTable.table[1, 3]",0.0
+200,86400.0,"combiTimeTable.table[1, 4]",0.0
+201,86400.0,"combiTimeTable.table[1, 5]",0.0
+202,86400.0,"combiTimeTable.table[10, 1]",37860.0
+203,86400.0,"combiTimeTable.table[10, 2]",0.3736920654773712
+204,86400.0,"combiTimeTable.table[10, 3]",1.0
+205,86400.0,"combiTimeTable.table[10, 4]",2.0
+206,86400.0,"combiTimeTable.table[10, 5]",0.0
+207,86400.0,"combiTimeTable.table[11, 1]",43140.0
+208,86400.0,"combiTimeTable.table[11, 2]",0.5175873041152954
+209,86400.0,"combiTimeTable.table[11, 3]",1.0
+210,86400.0,"combiTimeTable.table[11, 4]",2.0
+211,86400.0,"combiTimeTable.table[11, 5]",0.0
+212,86400.0,"combiTimeTable.table[12, 1]",43200.0
+213,86400.0,"combiTimeTable.table[12, 2]",0.540526807308197
+214,86400.0,"combiTimeTable.table[12, 3]",0.0
+215,86400.0,"combiTimeTable.table[12, 4]",0.0
+216,86400.0,"combiTimeTable.table[12, 5]",3.0
+217,86400.0,"combiTimeTable.table[13, 1]",44940.0
+218,86400.0,"combiTimeTable.table[13, 2]",0.32950153946876526
+219,86400.0,"combiTimeTable.table[13, 3]",0.0
+220,86400.0,"combiTimeTable.table[13, 4]",0.0
+221,86400.0,"combiTimeTable.table[13, 5]",3.0
+222,86400.0,"combiTimeTable.table[14, 1]",45000.0
+223,86400.0,"combiTimeTable.table[14, 2]",0.758051872253418
+224,86400.0,"combiTimeTable.table[14, 3]",0.0
+225,86400.0,"combiTimeTable.table[14, 4]",0.0
+226,86400.0,"combiTimeTable.table[14, 5]",0.0
+227,86400.0,"combiTimeTable.table[15, 1]",48540.0
+228,86400.0,"combiTimeTable.table[15, 2]",0.4045606553554535
+229,86400.0,"combiTimeTable.table[15, 3]",0.0
+230,86400.0,"combiTimeTable.table[15, 4]",0.0
+231,86400.0,"combiTimeTable.table[15, 5]",0.0
+232,86400.0,"combiTimeTable.table[16, 1]",48600.0
+233,86400.0,"combiTimeTable.table[16, 2]",0.5097464919090271
+234,86400.0,"combiTimeTable.table[16, 3]",2.0
+235,86400.0,"combiTimeTable.table[16, 4]",1.0
+236,86400.0,"combiTimeTable.table[16, 5]",0.0
+237,86400.0,"combiTimeTable.table[17, 1]",53940.0
+238,86400.0,"combiTimeTable.table[17, 2]",0.5967000126838684
+239,86400.0,"combiTimeTable.table[17, 3]",2.0
+240,86400.0,"combiTimeTable.table[17, 4]",1.0
+241,86400.0,"combiTimeTable.table[17, 5]",0.0
+242,86400.0,"combiTimeTable.table[18, 1]",54000.0
+243,86400.0,"combiTimeTable.table[18, 2]",0.7623000144958496
+244,86400.0,"combiTimeTable.table[18, 3]",2.0
+245,86400.0,"combiTimeTable.table[18, 4]",1.0
+246,86400.0,"combiTimeTable.table[18, 5]",1.0
+247,86400.0,"combiTimeTable.table[19, 1]",55740.0
+248,86400.0,"combiTimeTable.table[19, 2]",0.5703061819076538
+249,86400.0,"combiTimeTable.table[19, 3]",2.0
+250,86400.0,"combiTimeTable.table[19, 4]",1.0
+251,86400.0,"combiTimeTable.table[19, 5]",1.0
+252,86400.0,"combiTimeTable.table[2, 1]",25200.0
+253,86400.0,"combiTimeTable.table[2, 2]",0.664681613445282
+254,86400.0,"combiTimeTable.table[2, 3]",0.0
+255,86400.0,"combiTimeTable.table[2, 4]",0.0
+256,86400.0,"combiTimeTable.table[2, 5]",0.0
+257,86400.0,"combiTimeTable.table[20, 1]",55800.0
+258,86400.0,"combiTimeTable.table[20, 2]",0.598770022392273
+259,86400.0,"combiTimeTable.table[20, 3]",2.0
+260,86400.0,"combiTimeTable.table[20, 4]",1.0
+261,86400.0,"combiTimeTable.table[20, 5]",0.0
+262,86400.0,"combiTimeTable.table[21, 1]",64740.0
+263,86400.0,"combiTimeTable.table[21, 2]",0.5601300001144409
+264,86400.0,"combiTimeTable.table[21, 3]",2.0
+265,86400.0,"combiTimeTable.table[21, 4]",1.0
+266,86400.0,"combiTimeTable.table[21, 5]",0.0
+267,86400.0,"combiTimeTable.table[22, 1]",64800.0
+268,86400.0,"combiTimeTable.table[22, 2]",0.598770022392273
+269,86400.0,"combiTimeTable.table[22, 3]",0.0
+270,86400.0,"combiTimeTable.table[22, 4]",0.0
+271,86400.0,"combiTimeTable.table[22, 5]",3.0
+272,86400.0,"combiTimeTable.table[23, 1]",66540.0
+273,86400.0,"combiTimeTable.table[23, 2]",0.5391507744789124
+274,86400.0,"combiTimeTable.table[23, 3]",0.0
+275,86400.0,"combiTimeTable.table[23, 4]",0.0
+276,86400.0,"combiTimeTable.table[23, 5]",3.0
+277,86400.0,"combiTimeTable.table[24, 1]",66600.0
+278,86400.0,"combiTimeTable.table[24, 2]",0.49295276403427124
+279,86400.0,"combiTimeTable.table[24, 3]",0.0
+280,86400.0,"combiTimeTable.table[24, 4]",0.0
+281,86400.0,"combiTimeTable.table[24, 5]",0.0
+282,86400.0,"combiTimeTable.table[25, 1]",68400.0
+283,86400.0,"combiTimeTable.table[25, 2]",0.4491911232471466
+284,86400.0,"combiTimeTable.table[25, 3]",0.0
+285,86400.0,"combiTimeTable.table[25, 4]",0.0
+286,86400.0,"combiTimeTable.table[25, 5]",0.0
+287,86400.0,"combiTimeTable.table[26, 1]",86400.0
+288,86400.0,"combiTimeTable.table[26, 2]",0.39660000801086426
+289,86400.0,"combiTimeTable.table[26, 3]",0.0
+290,86400.0,"combiTimeTable.table[26, 4]",0.0
+291,86400.0,"combiTimeTable.table[26, 5]",0.0
+292,86400.0,"combiTimeTable.table[3, 1]",28740.0
+293,86400.0,"combiTimeTable.table[3, 2]",0.3915904462337494
+294,86400.0,"combiTimeTable.table[3, 3]",0.0
+295,86400.0,"combiTimeTable.table[3, 4]",0.0
+296,86400.0,"combiTimeTable.table[3, 5]",0.0
+297,86400.0,"combiTimeTable.table[4, 1]",28800.0
+298,86400.0,"combiTimeTable.table[4, 2]",0.44501814246177673
+299,86400.0,"combiTimeTable.table[4, 3]",0.0
+300,86400.0,"combiTimeTable.table[4, 4]",0.0
+301,86400.0,"combiTimeTable.table[4, 5]",3.0
+302,86400.0,"combiTimeTable.table[5, 1]",30540.0
+303,86400.0,"combiTimeTable.table[5, 2]",0.3429104685783386
+304,86400.0,"combiTimeTable.table[5, 3]",0.0
+305,86400.0,"combiTimeTable.table[5, 4]",0.0
+306,86400.0,"combiTimeTable.table[5, 5]",3.0
+307,86400.0,"combiTimeTable.table[6, 1]",30600.0
+308,86400.0,"combiTimeTable.table[6, 2]",0.34542977809906006
+309,86400.0,"combiTimeTable.table[6, 3]",1.0
+310,86400.0,"combiTimeTable.table[6, 4]",2.0
+311,86400.0,"combiTimeTable.table[6, 5]",0.0
+312,86400.0,"combiTimeTable.table[7, 1]",36000.0
+313,86400.0,"combiTimeTable.table[7, 2]",0.5967000126838684
+314,86400.0,"combiTimeTable.table[7, 3]",1.0
+315,86400.0,"combiTimeTable.table[7, 4]",2.0
+316,86400.0,"combiTimeTable.table[7, 5]",0.0
+317,86400.0,"combiTimeTable.table[8, 1]",36060.0
+318,86400.0,"combiTimeTable.table[8, 2]",0.3546571433544159
+319,86400.0,"combiTimeTable.table[8, 3]",1.0
+320,86400.0,"combiTimeTable.table[8, 4]",2.0
+321,86400.0,"combiTimeTable.table[8, 5]",1.0
+322,86400.0,"combiTimeTable.table[9, 1]",37800.0
+323,86400.0,"combiTimeTable.table[9, 2]",0.5755417943000793
+324,86400.0,"combiTimeTable.table[9, 3]",1.0
+325,86400.0,"combiTimeTable.table[9, 4]",2.0
+326,86400.0,"combiTimeTable.table[9, 5]",1.0
+327,86400.0,combiTimeTable.timeScale,1.0
+328,86400.0,combiTimeTable.verboseRead,1.0
+329,86400.0,combiTimeTable.y[1],0.39660000801086426
+330,86400.0,combiTimeTable.y[2],0.0
+331,86400.0,combiTimeTable.y[3],0.0
+332,86400.0,combiTimeTable.y[4],0.0
+333,86400.0,combiTimeTable_huanchong.columns[1],2.0
+334,86400.0,combiTimeTable_huanchong.extrapolation,2.0
+335,86400.0,combiTimeTable_huanchong.nout,1.0
+336,86400.0,combiTimeTable_huanchong.offset[1],0.0
+337,86400.0,combiTimeTable_huanchong.smoothness,3.0
+338,86400.0,combiTimeTable_huanchong.startTime,0.0
+339,86400.0,combiTimeTable_huanchong.t_max,86400.0
+340,86400.0,combiTimeTable_huanchong.t_maxScaled,86400.0
+341,86400.0,combiTimeTable_huanchong.t_min,0.0
+342,86400.0,combiTimeTable_huanchong.t_minScaled,0.0
+343,86400.0,combiTimeTable_huanchong.tableOnFile,0.0
+344,86400.0,"combiTimeTable_huanchong.table[1, 1]",0.0
+345,86400.0,"combiTimeTable_huanchong.table[1, 2]",0.30000001192092896
+346,86400.0,"combiTimeTable_huanchong.table[10, 1]",37860.0
+347,86400.0,"combiTimeTable_huanchong.table[10, 2]",0.30000001192092896
+348,86400.0,"combiTimeTable_huanchong.table[11, 1]",43140.0
+349,86400.0,"combiTimeTable_huanchong.table[11, 2]",0.30000001192092896
+350,86400.0,"combiTimeTable_huanchong.table[12, 1]",43200.0
+351,86400.0,"combiTimeTable_huanchong.table[12, 2]",0.3184657394886017
+352,86400.0,"combiTimeTable_huanchong.table[13, 1]",44940.0
+353,86400.0,"combiTimeTable_huanchong.table[13, 2]",0.30000001192092896
+354,86400.0,"combiTimeTable_huanchong.table[14, 1]",45000.0
+355,86400.0,"combiTimeTable_huanchong.table[14, 2]",0.9900000095367432
+356,86400.0,"combiTimeTable_huanchong.table[15, 1]",48540.0
+357,86400.0,"combiTimeTable_huanchong.table[15, 2]",0.3271694481372833
+358,86400.0,"combiTimeTable_huanchong.table[16, 1]",48600.0
+359,86400.0,"combiTimeTable_huanchong.table[16, 2]",0.30000001192092896
+360,86400.0,"combiTimeTable_huanchong.table[17, 1]",53940.0
+361,86400.0,"combiTimeTable_huanchong.table[17, 2]",0.9900000095367432
+362,86400.0,"combiTimeTable_huanchong.table[18, 1]",54000.0
+363,86400.0,"combiTimeTable_huanchong.table[18, 2]",0.9900000095367432
+364,86400.0,"combiTimeTable_huanchong.table[19, 1]",55740.0
+365,86400.0,"combiTimeTable_huanchong.table[19, 2]",0.8999186754226685
+366,86400.0,"combiTimeTable_huanchong.table[2, 1]",25200.0
+367,86400.0,"combiTimeTable_huanchong.table[2, 2]",0.9516079425811768
+368,86400.0,"combiTimeTable_huanchong.table[20, 1]",55800.0
+369,86400.0,"combiTimeTable_huanchong.table[20, 2]",0.9900000095367432
+370,86400.0,"combiTimeTable_huanchong.table[21, 1]",64740.0
+371,86400.0,"combiTimeTable_huanchong.table[21, 2]",0.30000001192092896
+372,86400.0,"combiTimeTable_huanchong.table[22, 1]",64800.0
+373,86400.0,"combiTimeTable_huanchong.table[22, 2]",0.9900000095367432
+374,86400.0,"combiTimeTable_huanchong.table[23, 1]",66540.0
+375,86400.0,"combiTimeTable_huanchong.table[23, 2]",0.8482891321182251
+376,86400.0,"combiTimeTable_huanchong.table[24, 1]",66600.0
+377,86400.0,"combiTimeTable_huanchong.table[24, 2]",0.9900000095367432
+378,86400.0,"combiTimeTable_huanchong.table[25, 1]",68400.0
+379,86400.0,"combiTimeTable_huanchong.table[25, 2]",0.5656870007514954
+380,86400.0,"combiTimeTable_huanchong.table[26, 1]",86400.0
+381,86400.0,"combiTimeTable_huanchong.table[26, 2]",0.30000001192092896
+382,86400.0,"combiTimeTable_huanchong.table[3, 1]",28740.0
+383,86400.0,"combiTimeTable_huanchong.table[3, 2]",0.30000001192092896
+384,86400.0,"combiTimeTable_huanchong.table[4, 1]",28800.0
+385,86400.0,"combiTimeTable_huanchong.table[4, 2]",0.9900000095367432
+386,86400.0,"combiTimeTable_huanchong.table[5, 1]",30540.0
+387,86400.0,"combiTimeTable_huanchong.table[5, 2]",0.5283982753753662
+388,86400.0,"combiTimeTable_huanchong.table[6, 1]",30600.0
+389,86400.0,"combiTimeTable_huanchong.table[6, 2]",0.6905453205108643
+390,86400.0,"combiTimeTable_huanchong.table[7, 1]",36000.0
+391,86400.0,"combiTimeTable_huanchong.table[7, 2]",0.9900000095367432
+392,86400.0,"combiTimeTable_huanchong.table[8, 1]",36060.0
+393,86400.0,"combiTimeTable_huanchong.table[8, 2]",0.30000001192092896
+394,86400.0,"combiTimeTable_huanchong.table[9, 1]",37800.0
+395,86400.0,"combiTimeTable_huanchong.table[9, 2]",0.8620821833610535
+396,86400.0,combiTimeTable_huanchong.timeScale,1.0
+397,86400.0,combiTimeTable_huanchong.verboseRead,1.0
+398,86400.0,combiTimeTable_huanchong.y[1],0.30000001192092896
+399,86400.0,combiTimeTable_weisheng.columns[1],2.0
+400,86400.0,combiTimeTable_weisheng.extrapolation,2.0
+401,86400.0,combiTimeTable_weisheng.nout,1.0
+402,86400.0,combiTimeTable_weisheng.offset[1],0.0
+403,86400.0,combiTimeTable_weisheng.smoothness,3.0
+404,86400.0,combiTimeTable_weisheng.startTime,0.0
+405,86400.0,combiTimeTable_weisheng.t_max,86400.0
+406,86400.0,combiTimeTable_weisheng.t_maxScaled,86400.0
+407,86400.0,combiTimeTable_weisheng.t_min,0.0
+408,86400.0,combiTimeTable_weisheng.t_minScaled,0.0
+409,86400.0,combiTimeTable_weisheng.tableOnFile,0.0
+410,86400.0,"combiTimeTable_weisheng.table[1, 1]",0.0
+411,86400.0,"combiTimeTable_weisheng.table[1, 2]",0.30000001192092896
+412,86400.0,"combiTimeTable_weisheng.table[10, 1]",37860.0
+413,86400.0,"combiTimeTable_weisheng.table[10, 2]",0.6559891700744629
+414,86400.0,"combiTimeTable_weisheng.table[11, 1]",43140.0
+415,86400.0,"combiTimeTable_weisheng.table[11, 2]",0.8104949593544006
+416,86400.0,"combiTimeTable_weisheng.table[12, 1]",43200.0
+417,86400.0,"combiTimeTable_weisheng.table[12, 2]",0.9900000095367432
+418,86400.0,"combiTimeTable_weisheng.table[13, 1]",44940.0
+419,86400.0,"combiTimeTable_weisheng.table[13, 2]",0.7156182527542114
+420,86400.0,"combiTimeTable_weisheng.table[14, 1]",45000.0
+421,86400.0,"combiTimeTable_weisheng.table[14, 2]",0.9900000095367432
+422,86400.0,"combiTimeTable_weisheng.table[15, 1]",48540.0
+423,86400.0,"combiTimeTable_weisheng.table[15, 2]",0.30000001192092896
+424,86400.0,"combiTimeTable_weisheng.table[16, 1]",48600.0
+425,86400.0,"combiTimeTable_weisheng.table[16, 2]",0.9900000095367432
+426,86400.0,"combiTimeTable_weisheng.table[17, 1]",53940.0
+427,86400.0,"combiTimeTable_weisheng.table[17, 2]",0.9900000095367432
+428,86400.0,"combiTimeTable_weisheng.table[18, 1]",54000.0
+429,86400.0,"combiTimeTable_weisheng.table[18, 2]",0.9900000095367432
+430,86400.0,"combiTimeTable_weisheng.table[19, 1]",55740.0
+431,86400.0,"combiTimeTable_weisheng.table[19, 2]",0.9900000095367432
+432,86400.0,"combiTimeTable_weisheng.table[2, 1]",25200.0
+433,86400.0,"combiTimeTable_weisheng.table[2, 2]",0.669736921787262
+434,86400.0,"combiTimeTable_weisheng.table[20, 1]",55800.0
+435,86400.0,"combiTimeTable_weisheng.table[20, 2]",0.30000001192092896
+436,86400.0,"combiTimeTable_weisheng.table[21, 1]",64740.0
+437,86400.0,"combiTimeTable_weisheng.table[21, 2]",0.9900000095367432
+438,86400.0,"combiTimeTable_weisheng.table[22, 1]",64800.0
+439,86400.0,"combiTimeTable_weisheng.table[22, 2]",0.30000001192092896
+440,86400.0,"combiTimeTable_weisheng.table[23, 1]",66540.0
+441,86400.0,"combiTimeTable_weisheng.table[23, 2]",0.30000001192092896
+442,86400.0,"combiTimeTable_weisheng.table[24, 1]",66600.0
+443,86400.0,"combiTimeTable_weisheng.table[24, 2]",0.5522478818893433
+444,86400.0,"combiTimeTable_weisheng.table[25, 1]",68400.0
+445,86400.0,"combiTimeTable_weisheng.table[25, 2]",0.30000001192092896
+446,86400.0,"combiTimeTable_weisheng.table[26, 1]",86400.0
+447,86400.0,"combiTimeTable_weisheng.table[26, 2]",0.30000001192092896
+448,86400.0,"combiTimeTable_weisheng.table[3, 1]",28740.0
+449,86400.0,"combiTimeTable_weisheng.table[3, 2]",0.30000001192092896
+450,86400.0,"combiTimeTable_weisheng.table[4, 1]",28800.0
+451,86400.0,"combiTimeTable_weisheng.table[4, 2]",0.34999221563339233
+452,86400.0,"combiTimeTable_weisheng.table[5, 1]",30540.0
+453,86400.0,"combiTimeTable_weisheng.table[5, 2]",0.30000001192092896
+454,86400.0,"combiTimeTable_weisheng.table[6, 1]",30600.0
+455,86400.0,"combiTimeTable_weisheng.table[6, 2]",0.30000001192092896
+456,86400.0,"combiTimeTable_weisheng.table[7, 1]",36000.0
+457,86400.0,"combiTimeTable_weisheng.table[7, 2]",0.9900000095367432
+458,86400.0,"combiTimeTable_weisheng.table[8, 1]",36060.0
+459,86400.0,"combiTimeTable_weisheng.table[8, 2]",0.30000001192092896
+460,86400.0,"combiTimeTable_weisheng.table[9, 1]",37800.0
+461,86400.0,"combiTimeTable_weisheng.table[9, 2]",0.9900000095367432
+462,86400.0,combiTimeTable_weisheng.timeScale,1.0
+463,86400.0,combiTimeTable_weisheng.verboseRead,1.0
+464,86400.0,combiTimeTable_weisheng.y[1],0.30000001192092896
+465,86400.0,combiTimeTable_wujun.columns[1],2.0
+466,86400.0,combiTimeTable_wujun.extrapolation,2.0
+467,86400.0,combiTimeTable_wujun.nout,1.0
+468,86400.0,combiTimeTable_wujun.offset[1],0.0
+469,86400.0,combiTimeTable_wujun.smoothness,3.0
+470,86400.0,combiTimeTable_wujun.startTime,0.0
+471,86400.0,combiTimeTable_wujun.t_max,86400.0
+472,86400.0,combiTimeTable_wujun.t_maxScaled,86400.0
+473,86400.0,combiTimeTable_wujun.t_min,0.0
+474,86400.0,combiTimeTable_wujun.t_minScaled,0.0
+475,86400.0,combiTimeTable_wujun.tableOnFile,0.0
+476,86400.0,"combiTimeTable_wujun.table[1, 1]",0.0
+477,86400.0,"combiTimeTable_wujun.table[1, 2]",0.30000001192092896
+478,86400.0,"combiTimeTable_wujun.table[10, 1]",37860.0
+479,86400.0,"combiTimeTable_wujun.table[10, 2]",0.543010950088501
+480,86400.0,"combiTimeTable_wujun.table[11, 1]",43140.0
+481,86400.0,"combiTimeTable_wujun.table[11, 2]",0.9900000095367432
+482,86400.0,"combiTimeTable_wujun.table[12, 1]",43200.0
+483,86400.0,"combiTimeTable_wujun.table[12, 2]",0.8857764005661011
+484,86400.0,"combiTimeTable_wujun.table[13, 1]",44940.0
+485,86400.0,"combiTimeTable_wujun.table[13, 2]",0.30000001192092896
+486,86400.0,"combiTimeTable_wujun.table[14, 1]",45000.0
+487,86400.0,"combiTimeTable_wujun.table[14, 2]",0.9722994565963745
+488,86400.0,"combiTimeTable_wujun.table[15, 1]",48540.0
+489,86400.0,"combiTimeTable_wujun.table[15, 2]",0.9900000095367432
+490,86400.0,"combiTimeTable_wujun.table[16, 1]",48600.0
+491,86400.0,"combiTimeTable_wujun.table[16, 2]",0.7800687551498413
+492,86400.0,"combiTimeTable_wujun.table[17, 1]",53940.0
+493,86400.0,"combiTimeTable_wujun.table[17, 2]",0.30000001192092896
+494,86400.0,"combiTimeTable_wujun.table[18, 1]",54000.0
+495,86400.0,"combiTimeTable_wujun.table[18, 2]",0.9900000095367432
+496,86400.0,"combiTimeTable_wujun.table[19, 1]",55740.0
+497,86400.0,"combiTimeTable_wujun.table[19, 2]",0.30000001192092896
+498,86400.0,"combiTimeTable_wujun.table[2, 1]",25200.0
+499,86400.0,"combiTimeTable_wujun.table[2, 2]",0.9463867545127869
+500,86400.0,"combiTimeTable_wujun.table[20, 1]",55800.0
+501,86400.0,"combiTimeTable_wujun.table[20, 2]",0.9900000095367432
+502,86400.0,"combiTimeTable_wujun.table[21, 1]",64740.0
+503,86400.0,"combiTimeTable_wujun.table[21, 2]",0.9900000095367432
+504,86400.0,"combiTimeTable_wujun.table[22, 1]",64800.0
+505,86400.0,"combiTimeTable_wujun.table[22, 2]",0.9900000095367432
+506,86400.0,"combiTimeTable_wujun.table[23, 1]",66540.0
+507,86400.0,"combiTimeTable_wujun.table[23, 2]",0.9145919680595398
+508,86400.0,"combiTimeTable_wujun.table[24, 1]",66600.0
+509,86400.0,"combiTimeTable_wujun.table[24, 2]",0.30000001192092896
+510,86400.0,"combiTimeTable_wujun.table[25, 1]",68400.0
+511,86400.0,"combiTimeTable_wujun.table[25, 2]",0.8847700953483582
+512,86400.0,"combiTimeTable_wujun.table[26, 1]",86400.0
+513,86400.0,"combiTimeTable_wujun.table[26, 2]",0.9900000095367432
+514,86400.0,"combiTimeTable_wujun.table[3, 1]",28740.0
+515,86400.0,"combiTimeTable_wujun.table[3, 2]",0.9691269397735596
+516,86400.0,"combiTimeTable_wujun.table[4, 1]",28800.0
+517,86400.0,"combiTimeTable_wujun.table[4, 2]",0.30000001192092896
+518,86400.0,"combiTimeTable_wujun.table[5, 1]",30540.0
+519,86400.0,"combiTimeTable_wujun.table[5, 2]",0.48745739459991455
+520,86400.0,"combiTimeTable_wujun.table[6, 1]",30600.0
+521,86400.0,"combiTimeTable_wujun.table[6, 2]",0.30000001192092896
+522,86400.0,"combiTimeTable_wujun.table[7, 1]",36000.0
+523,86400.0,"combiTimeTable_wujun.table[7, 2]",0.30000001192092896
+524,86400.0,"combiTimeTable_wujun.table[8, 1]",36060.0
+525,86400.0,"combiTimeTable_wujun.table[8, 2]",0.8152381181716919
+526,86400.0,"combiTimeTable_wujun.table[9, 1]",37800.0
+527,86400.0,"combiTimeTable_wujun.table[9, 2]",0.3680071532726288
+528,86400.0,combiTimeTable_wujun.timeScale,1.0
+529,86400.0,combiTimeTable_wujun.verboseRead,1.0
+530,86400.0,combiTimeTable_wujun.y[1],0.9900000095367432
+531,86400.0,conPID.D.T,1.0
+532,86400.0,conPID.D.der(x),1.1518563880486e-15
+533,86400.0,conPID.D.initType,1.0
+534,86400.0,conPID.D.k,10.0
+535,86400.0,conPID.D.u,-0.06909999996423721
+536,86400.0,conPID.D.x,-0.06909999996423721
+537,86400.0,conPID.D.x_start,0.0
+538,86400.0,conPID.D.y,1.0547118733938987e-14
+539,86400.0,conPID.D.y_start,0.0
+540,86400.0,conPID.I.der(y),7.494005548568705e-17
+541,86400.0,conPID.I.initType,3.0
+542,86400.0,conPID.I.k,0.06666667014360428
+543,86400.0,conPID.I.reset,1.0
+544,86400.0,conPID.I.u,9.992007221626409e-16
+545,86400.0,conPID.I.y,0.009935606271028519
+546,86400.0,conPID.I.y_reset,0.0
+547,86400.0,conPID.I.y_start,0.0
+548,86400.0,conPID.Nd,10.0
+549,86400.0,conPID.Ni,0.8999999761581421
+550,86400.0,conPID.P.k,1.0
+551,86400.0,conPID.P.u,9.992007221626409e-16
+552,86400.0,conPID.P.y,9.992007221626409e-16
+553,86400.0,conPID.Td,10.0
+554,86400.0,conPID.Ti,15.0
+555,86400.0,conPID.addD.k1,0.0
+556,86400.0,conPID.addD.k2,-1.0
+557,86400.0,conPID.addD.u1,0.06909999996423721
+558,86400.0,conPID.addD.u2,0.06909999996423721
+559,86400.0,conPID.addD.y,-0.06909999996423721
+560,86400.0,conPID.addP.k1,1.0
+561,86400.0,conPID.addP.k2,-1.0
+562,86400.0,conPID.addP.u1,0.06909999996423721
+563,86400.0,conPID.addP.u2,0.06909999996423721
+564,86400.0,conPID.addP.y,9.992007221626409e-16
+565,86400.0,conPID.addPID.k1,1.0
+566,86400.0,conPID.addPID.k2,1.0
+567,86400.0,conPID.addPID.k3,1.0
+568,86400.0,conPID.addPID.u1,9.992007221626409e-16
+569,86400.0,conPID.addPID.u2,1.0547118733938987e-14
+570,86400.0,conPID.addPID.u3,0.009935606271028519
+571,86400.0,conPID.addPID.y,0.009935606271028519
+572,86400.0,conPID.controlError,9.992007221626409e-16
+573,86400.0,conPID.controllerType,4.0
+574,86400.0,conPID.initType,5.0
+575,86400.0,conPID.k,50.0
+576,86400.0,conPID.reset,1.0
+577,86400.0,conPID.reverseAction,0.0
+578,86400.0,conPID.strict,1.0
+579,86400.0,conPID.u_m,0.06909999996423721
+580,86400.0,conPID.u_s,0.06909999996423721
+581,86400.0,conPID.wd,0.0
+582,86400.0,conPID.wp,1.0
+583,86400.0,conPID.xd_start,0.0
+584,86400.0,conPID.xi_start,0.0
+585,86400.0,conPID.y,0.49678030610084534
+586,86400.0,conPID.yMax,1.0
+587,86400.0,conPID.yMin,0.0
+588,86400.0,conPID.y_reset,0.0
+589,86400.0,conPID.y_start,0.0
+590,86400.0,conPID1.D.T,0.10000000149011612
+591,86400.0,conPID1.D.der(x),-6.938893903907228e-15
+592,86400.0,conPID1.D.initType,1.0
+593,86400.0,conPID1.D.k,1.0
+594,86400.0,conPID1.D.u,-0.13374629616737366
+595,86400.0,conPID1.D.x,-0.13374629616737366
+596,86400.0,conPID1.D.x_start,0.0
+597,86400.0,conPID1.D.y,-8.049116928532385e-15
+598,86400.0,conPID1.D.y_start,0.0
+599,86400.0,conPID1.I.der(y),2.3148150486950987e-16
+600,86400.0,conPID1.I.initType,3.0
+601,86400.0,conPID1.I.k,0.019999999552965164
+602,86400.0,conPID1.I.reset,1.0
+603,86400.0,conPID1.I.u,1.149080830487037e-14
+604,86400.0,conPID1.I.y,0.015782753005623817
+605,86400.0,conPID1.I.y_reset,0.0
+606,86400.0,conPID1.I.y_start,0.0
+607,86400.0,conPID1.Nd,10.0
+608,86400.0,conPID1.Ni,0.8999999761581421
+609,86400.0,conPID1.P.k,1.0
+610,86400.0,conPID1.P.u,1.149080830487037e-14
+611,86400.0,conPID1.P.y,1.149080830487037e-14
+612,86400.0,conPID1.Td,1.0
+613,86400.0,conPID1.Ti,50.0
+614,86400.0,conPID1.addD.k1,0.0
+615,86400.0,conPID1.addD.k2,-1.0
+616,86400.0,conPID1.addD.u1,0.13374629616737366
+617,86400.0,conPID1.addD.u2,0.13374629616737366
+618,86400.0,conPID1.addD.y,-0.13374629616737366
+619,86400.0,conPID1.addP.k1,1.0
+620,86400.0,conPID1.addP.k2,-1.0
+621,86400.0,conPID1.addP.u1,0.13374629616737366
+622,86400.0,conPID1.addP.u2,0.13374629616737366
+623,86400.0,conPID1.addP.y,1.149080830487037e-14
+624,86400.0,conPID1.addPID.k1,1.0
+625,86400.0,conPID1.addPID.k2,1.0
+626,86400.0,conPID1.addPID.k3,1.0
+627,86400.0,conPID1.addPID.u1,1.149080830487037e-14
+628,86400.0,conPID1.addPID.u2,-8.049116928532385e-15
+629,86400.0,conPID1.addPID.u3,0.015782753005623817
+630,86400.0,conPID1.addPID.y,0.015782753005623817
+631,86400.0,conPID1.controlError,1.149080830487037e-14
+632,86400.0,conPID1.controllerType,4.0
+633,86400.0,conPID1.initType,5.0
+634,86400.0,conPID1.k,40.0
+635,86400.0,conPID1.reset,1.0
+636,86400.0,conPID1.reverseAction,0.0
+637,86400.0,conPID1.strict,1.0
+638,86400.0,conPID1.u_m,0.13374629616737366
+639,86400.0,conPID1.u_s,0.13374629616737366
+640,86400.0,conPID1.wd,0.0
+641,86400.0,conPID1.wp,1.0
+642,86400.0,conPID1.xd_start,0.0
+643,86400.0,conPID1.xi_start,0.0
+644,86400.0,conPID1.y,0.6313101649284363
+645,86400.0,conPID1.yMax,1.0
+646,86400.0,conPID1.yMin,0.0
+647,86400.0,conPID1.y_reset,0.0
+648,86400.0,conPID1.y_start,0.0
+649,86400.0,conPID2.D.T,0.10000000149011612
+650,86400.0,conPID2.D.der(x),-4.440892098500626e-15
+651,86400.0,conPID2.D.initType,1.0
+652,86400.0,conPID2.D.k,1.0
+653,86400.0,conPID2.D.u,-0.5656870007514954
+654,86400.0,conPID2.D.x,-0.5656870007514954
+655,86400.0,conPID2.D.x_start,0.0
+656,86400.0,conPID2.D.y,-5.551115123125783e-15
+657,86400.0,conPID2.D.y_start,0.0
+658,86400.0,conPID2.I.der(y),-3.108624482185328e-17
+659,86400.0,conPID2.I.initType,3.0
+660,86400.0,conPID2.I.k,0.019999999552965164
+661,86400.0,conPID2.I.reset,1.0
+662,86400.0,conPID2.I.u,0.021808993071317673
+663,86400.0,conPID2.I.y,0.006940608844161034
+664,86400.0,conPID2.I.y_reset,0.0
+665,86400.0,conPID2.I.y_start,0.0
+666,86400.0,conPID2.Nd,10.0
+667,86400.0,conPID2.Ni,0.8999999761581421
+668,86400.0,conPID2.P.k,1.0
+669,86400.0,conPID2.P.u,-0.2656870186328888
+670,86400.0,conPID2.P.y,-0.2656870186328888
+671,86400.0,conPID2.Td,1.0
+672,86400.0,conPID2.Ti,50.0
+673,86400.0,conPID2.addD.k1,0.0
+674,86400.0,conPID2.addD.k2,-1.0
+675,86400.0,conPID2.addD.u1,0.30000001192092896
+676,86400.0,conPID2.addD.u2,0.5656870007514954
+677,86400.0,conPID2.addD.y,-0.5656870007514954
+678,86400.0,conPID2.addP.k1,1.0
+679,86400.0,conPID2.addP.k2,-1.0
+680,86400.0,conPID2.addP.u1,0.30000001192092896
+681,86400.0,conPID2.addP.u2,0.5656870007514954
+682,86400.0,conPID2.addP.y,-0.2656870186328888
+683,86400.0,conPID2.addPID.k1,1.0
+684,86400.0,conPID2.addPID.k2,1.0
+685,86400.0,conPID2.addPID.k3,1.0
+686,86400.0,conPID2.addPID.u1,-0.2656870186328888
+687,86400.0,conPID2.addPID.u2,-5.551115123125783e-15
+688,86400.0,conPID2.addPID.u3,0.006940608844161034
+689,86400.0,conPID2.addPID.y,-0.2587464153766632
+690,86400.0,conPID2.controlError,-0.2656870186328888
+691,86400.0,conPID2.controllerType,4.0
+692,86400.0,conPID2.initType,5.0
+693,86400.0,conPID2.k,40.0
+694,86400.0,conPID2.reset,1.0
+695,86400.0,conPID2.reverseAction,0.0
+696,86400.0,conPID2.strict,1.0
+697,86400.0,conPID2.u_m,0.5656870007514954
+698,86400.0,conPID2.u_s,0.30000001192092896
+699,86400.0,conPID2.wd,0.0
+700,86400.0,conPID2.wp,1.0
+701,86400.0,conPID2.xd_start,0.0
+702,86400.0,conPID2.xi_start,0.0
+703,86400.0,conPID2.y,0.0
+704,86400.0,conPID2.yMax,1.0
+705,86400.0,conPID2.yMin,0.0
+706,86400.0,conPID2.y_reset,0.0
+707,86400.0,conPID2.y_start,0.0
+708,86400.0,conPID4.D.T,0.5
+709,86400.0,conPID4.D.der(x),-1.5543122344752192e-15
+710,86400.0,conPID4.D.initType,1.0
+711,86400.0,conPID4.D.k,5.0
+712,86400.0,conPID4.D.u,-0.8847700953483582
+713,86400.0,conPID4.D.x,-0.8847700953483582
+714,86400.0,conPID4.D.x_start,0.0
+715,86400.0,conPID4.D.y,-7.771561172376096e-15
+716,86400.0,conPID4.D.y_start,0.0
+717,86400.0,conPID4.I.der(y),1.4802974433703992e-17
+718,86400.0,conPID4.I.initType,3.0
+719,86400.0,conPID4.I.k,0.06666667014360428
+720,86400.0,conPID4.I.reset,1.0
+721,86400.0,conPID4.I.u,-0.004731505177915096
+722,86400.0,conPID4.I.y,0.00373536697588861
+723,86400.0,conPID4.I.y_reset,0.0
+724,86400.0,conPID4.I.y_start,0.0
+725,86400.0,conPID4.Nd,10.0
+726,86400.0,conPID4.Ni,0.8999999761581421
+727,86400.0,conPID4.P.k,1.0
+728,86400.0,conPID4.P.u,0.10522987693548203
+729,86400.0,conPID4.P.y,0.10522987693548203
+730,86400.0,conPID4.Td,5.0
+731,86400.0,conPID4.Ti,15.0
+732,86400.0,conPID4.addD.k1,0.0
+733,86400.0,conPID4.addD.k2,-1.0
+734,86400.0,conPID4.addD.u1,0.9900000095367432
+735,86400.0,conPID4.addD.u2,0.8847700953483582
+736,86400.0,conPID4.addD.y,-0.8847700953483582
+737,86400.0,conPID4.addP.k1,1.0
+738,86400.0,conPID4.addP.k2,-1.0
+739,86400.0,conPID4.addP.u1,0.9900000095367432
+740,86400.0,conPID4.addP.u2,0.8847700953483582
+741,86400.0,conPID4.addP.y,0.10522987693548203
+742,86400.0,conPID4.addPID.k1,1.0
+743,86400.0,conPID4.addPID.k2,1.0
+744,86400.0,conPID4.addPID.k3,1.0
+745,86400.0,conPID4.addPID.u1,0.10522987693548203
+746,86400.0,conPID4.addPID.u2,-7.771561172376096e-15
+747,86400.0,conPID4.addPID.u3,0.00373536697588861
+748,86400.0,conPID4.addPID.y,0.10896524041891098
+749,86400.0,conPID4.controlError,0.10522987693548203
+750,86400.0,conPID4.controllerType,4.0
+751,86400.0,conPID4.initType,5.0
+752,86400.0,conPID4.k,100.0
+753,86400.0,conPID4.reset,1.0
+754,86400.0,conPID4.reverseAction,0.0
+755,86400.0,conPID4.strict,1.0
+756,86400.0,conPID4.u_m,0.8847700953483582
+757,86400.0,conPID4.u_s,0.9900000095367432
+758,86400.0,conPID4.wd,0.0
+759,86400.0,conPID4.wp,1.0
+760,86400.0,conPID4.xd_start,0.0
+761,86400.0,conPID4.xi_start,0.0
+762,86400.0,conPID4.y,1.0
+763,86400.0,conPID4.yMax,1.0
+764,86400.0,conPID4.yMin,0.0
+765,86400.0,conPID4.y_reset,0.0
+766,86400.0,conPID4.y_start,0.0
+767,86400.0,conPID5.D.T,1.0
+768,86400.0,conPID5.D.der(x),1.2212453270876722e-15
+769,86400.0,conPID5.D.initType,1.0
+770,86400.0,conPID5.D.k,10.0
+771,86400.0,conPID5.D.u,-0.30000001192092896
+772,86400.0,conPID5.D.x,-0.30000001192092896
+773,86400.0,conPID5.D.x_start,0.0
+774,86400.0,conPID5.D.y,1.3322676295501878e-14
+775,86400.0,conPID5.D.y_start,0.0
+776,86400.0,conPID5.I.der(y),1.2582527524185842e-16
+777,86400.0,conPID5.I.initType,3.0
+778,86400.0,conPID5.I.k,0.06666667014360428
+779,86400.0,conPID5.I.reset,1.0
+780,86400.0,conPID5.I.u,1.9984014443252818e-15
+781,86400.0,conPID5.I.y,0.005045782309025526
+782,86400.0,conPID5.I.y_reset,0.0
+783,86400.0,conPID5.I.y_start,0.0
+784,86400.0,conPID5.Nd,10.0
+785,86400.0,conPID5.Ni,0.8999999761581421
+786,86400.0,conPID5.P.k,1.0
+787,86400.0,conPID5.P.u,1.9984014443252818e-15
+788,86400.0,conPID5.P.y,1.9984014443252818e-15
+789,86400.0,conPID5.Td,10.0
+790,86400.0,conPID5.Ti,15.0
+791,86400.0,conPID5.addD.k1,0.0
+792,86400.0,conPID5.addD.k2,-1.0
+793,86400.0,conPID5.addD.u1,0.30000001192092896
+794,86400.0,conPID5.addD.u2,0.30000001192092896
+795,86400.0,conPID5.addD.y,-0.30000001192092896
+796,86400.0,conPID5.addP.k1,1.0
+797,86400.0,conPID5.addP.k2,-1.0
+798,86400.0,conPID5.addP.u1,0.30000001192092896
+799,86400.0,conPID5.addP.u2,0.30000001192092896
+800,86400.0,conPID5.addP.y,1.9984014443252818e-15
+801,86400.0,conPID5.addPID.k1,1.0
+802,86400.0,conPID5.addPID.k2,1.0
+803,86400.0,conPID5.addPID.k3,1.0
+804,86400.0,conPID5.addPID.u1,1.9984014443252818e-15
+805,86400.0,conPID5.addPID.u2,1.3322676295501878e-14
+806,86400.0,conPID5.addPID.u3,0.005045782309025526
+807,86400.0,conPID5.addPID.y,0.005045782309025526
+808,86400.0,conPID5.controlError,1.9984014443252818e-15
+809,86400.0,conPID5.controllerType,4.0
+810,86400.0,conPID5.initType,5.0
+811,86400.0,conPID5.k,30.0
+812,86400.0,conPID5.reset,1.0
+813,86400.0,conPID5.reverseAction,0.0
+814,86400.0,conPID5.strict,1.0
+815,86400.0,conPID5.u_m,0.30000001192092896
+816,86400.0,conPID5.u_s,0.30000001192092896
+817,86400.0,conPID5.wd,0.0
+818,86400.0,conPID5.wp,1.0
+819,86400.0,conPID5.xd_start,0.0
+820,86400.0,conPID5.xi_start,0.0
+821,86400.0,conPID5.y,0.1513734757900238
+822,86400.0,conPID5.yMax,1.0
+823,86400.0,conPID5.yMin,0.0
+824,86400.0,conPID5.y_reset,0.0
+825,86400.0,conPID5.y_start,0.0
+826,86400.0,conPID6.D.T,1.0
+827,86400.0,conPID6.D.der(x),1.7486012637846216e-15
+828,86400.0,conPID6.D.initType,1.0
+829,86400.0,conPID6.D.k,10.0
+830,86400.0,conPID6.D.u,-0.18634483218193054
+831,86400.0,conPID6.D.x,-0.18634483218193054
+832,86400.0,conPID6.D.x_start,0.0
+833,86400.0,conPID6.D.y,2.3592239273284576e-14
+834,86400.0,conPID6.D.y_start,0.0
+835,86400.0,conPID6.I.der(y),2.0539126220263192e-16
+836,86400.0,conPID6.I.initType,3.0
+837,86400.0,conPID6.I.k,0.06666667014360428
+838,86400.0,conPID6.I.reset,1.0
+839,86400.0,conPID6.I.u,3.6914915568786455e-15
+840,86400.0,conPID6.I.y,0.01692519150674343
+841,86400.0,conPID6.I.y_reset,0.0
+842,86400.0,conPID6.I.y_start,0.0
+843,86400.0,conPID6.Nd,10.0
+844,86400.0,conPID6.Ni,0.8999999761581421
+845,86400.0,conPID6.P.k,1.0
+846,86400.0,conPID6.P.u,3.6914915568786455e-15
+847,86400.0,conPID6.P.y,3.6914915568786455e-15
+848,86400.0,conPID6.Td,10.0
+849,86400.0,conPID6.Ti,15.0
+850,86400.0,conPID6.addD.k1,0.0
+851,86400.0,conPID6.addD.k2,-1.0
+852,86400.0,conPID6.addD.u1,0.18634483218193054
+853,86400.0,conPID6.addD.u2,0.18634483218193054
+854,86400.0,conPID6.addD.y,-0.18634483218193054
+855,86400.0,conPID6.addP.k1,1.0
+856,86400.0,conPID6.addP.k2,-1.0
+857,86400.0,conPID6.addP.u1,0.18634483218193054
+858,86400.0,conPID6.addP.u2,0.18634483218193054
+859,86400.0,conPID6.addP.y,3.6914915568786455e-15
+860,86400.0,conPID6.addPID.k1,1.0
+861,86400.0,conPID6.addPID.k2,1.0
+862,86400.0,conPID6.addPID.k3,1.0
+863,86400.0,conPID6.addPID.u1,3.6914915568786455e-15
+864,86400.0,conPID6.addPID.u2,2.3592239273284576e-14
+865,86400.0,conPID6.addPID.u3,0.01692519150674343
+866,86400.0,conPID6.addPID.y,0.01692519150674343
+867,86400.0,conPID6.controlError,3.6914915568786455e-15
+868,86400.0,conPID6.controllerType,4.0
+869,86400.0,conPID6.initType,5.0
+870,86400.0,conPID6.k,50.0
+871,86400.0,conPID6.reset,1.0
+872,86400.0,conPID6.reverseAction,0.0
+873,86400.0,conPID6.strict,1.0
+874,86400.0,conPID6.u_m,0.18634483218193054
+875,86400.0,conPID6.u_s,0.18634483218193054
+876,86400.0,conPID6.wd,0.0
+877,86400.0,conPID6.wp,1.0
+878,86400.0,conPID6.xd_start,0.0
+879,86400.0,conPID6.xi_start,0.0
+880,86400.0,conPID6.y,0.846259593963623
+881,86400.0,conPID6.yMax,1.0
+882,86400.0,conPID6.yMin,0.0
+883,86400.0,conPID6.y_reset,0.0
+884,86400.0,conPID6.y_start,0.0
+885,86400.0,damExp.A,0.010262400843203068
+886,86400.0,damExp.ReC,4000.0
+887,86400.0,damExp.a,-1.5099999904632568
+888,86400.0,damExp.allowFlowReversal,1.0
+889,86400.0,damExp.b,9.449999809265137
+890,86400.0,damExp.deltaM,0.30000001192092896
+891,86400.0,damExp.dp,14570.79296875
+892,86400.0,damExp.dpDamper_nominal,100.0
+893,86400.0,damExp.dpFixed_nominal,0.0
+894,86400.0,damExp.dp_nominal,100.0
+895,86400.0,damExp.from_dp,0.0
+896,86400.0,damExp.init,4.0
+897,86400.0,damExp.k,0.000589017232414335
+898,86400.0,damExp.k0,45000000.0
+899,86400.0,damExp.k1,0.44999998807907104
+900,86400.0,damExp.kDam,0.000589017232414335
+901,86400.0,damExp.kFixed,3.4028234663852886e+38
+902,86400.0,damExp.l,9.999999747378752e-05
+903,86400.0,damExp.linearized,0.0
+904,86400.0,damExp.m_flow,0.07109999656677246
+905,86400.0,damExp.m_flow_nominal,0.2370000034570694
+906,86400.0,damExp.m_flow_small,2.370000038354192e-05
+907,86400.0,damExp.m_flow_turbulent,0.07109999656677246
+908,86400.0,damExp.order,2.0
+909,86400.0,damExp.port_a.Xi_outflow[1],0.009999999776482582
+910,86400.0,damExp.port_a.h_outflow,45300.9453125
+911,86400.0,damExp.port_a.m_flow,0.07109999656677246
+912,86400.0,damExp.port_a.p,114601.2421875
+913,86400.0,damExp.port_b.Xi_outflow[1],0.009999999776482582
+914,86400.0,damExp.port_b.h_outflow,45300.9453125
+915,86400.0,damExp.port_b.m_flow,-0.07109999656677246
+916,86400.0,damExp.port_b.p,100030.4453125
+917,86400.0,damExp.rho,1.2000000476837158
+918,86400.0,damExp.riseTime,100.0
+919,86400.0,damExp.roundDuct,0.0
+920,86400.0,damExp.show_T,0.0
+921,86400.0,damExp.use_constant_density,1.0
+922,86400.0,damExp.use_deltaM,1.0
+923,86400.0,damExp.use_inputFilter,1.0
+924,86400.0,damExp.v_nominal,19.24500846862793
+925,86400.0,damExp.y,0.1513734757900238
+926,86400.0,damExp.yL,0.1666666716337204
+927,86400.0,damExp.yU,0.6111111044883728
+928,86400.0,damExp.y_actual,0.1513734757900238
+929,86400.0,damExp.y_start,1.0
+930,86400.0,damExp1.A,0.010175798088312149
+931,86400.0,damExp1.ReC,4000.0
+932,86400.0,damExp1.a,-1.5099999904632568
+933,86400.0,damExp1.allowFlowReversal,1.0
+934,86400.0,damExp1.b,9.449999809265137
+935,86400.0,damExp1.deltaM,0.30000001192092896
+936,86400.0,damExp1.dp,493.2649841308594
+937,86400.0,damExp1.dpDamper_nominal,100.0
+938,86400.0,damExp1.dpFixed_nominal,0.0
+939,86400.0,damExp1.dp_nominal,100.0
+940,86400.0,damExp1.from_dp,0.0
+941,86400.0,damExp1.init,4.0
+942,86400.0,damExp1.k,0.0031112777069211006
+943,86400.0,damExp1.k0,45000000.0
+944,86400.0,damExp1.k1,0.44999998807907104
+945,86400.0,damExp1.kDam,0.0031112777069211006
+946,86400.0,damExp1.kFixed,3.4028234663852886e+38
+947,86400.0,damExp1.l,9.999999747378752e-05
+948,86400.0,damExp1.linearized,0.0
+949,86400.0,damExp1.m_flow,0.06909999996423721
+950,86400.0,damExp1.m_flow_nominal,0.23499999940395355
+951,86400.0,damExp1.m_flow_small,2.350000067963265e-05
+952,86400.0,damExp1.m_flow_turbulent,0.07050000131130219
+953,86400.0,damExp1.order,2.0
+954,86400.0,damExp1.port_a.Xi_outflow[1],0.009999999776482582
+955,86400.0,damExp1.port_a.h_outflow,45300.9453125
+956,86400.0,damExp1.port_a.m_flow,0.06909999996423721
+957,86400.0,damExp1.port_a.p,100030.4453125
+958,86400.0,damExp1.port_b.Xi_outflow[1],0.009999999776482582
+959,86400.0,damExp1.port_b.h_outflow,45300.9453125
+960,86400.0,damExp1.port_b.m_flow,-0.06909999996423721
+961,86400.0,damExp1.port_b.p,99537.1796875
+962,86400.0,damExp1.rho,1.2000000476837158
+963,86400.0,damExp1.riseTime,100.0
+964,86400.0,damExp1.roundDuct,0.0
+965,86400.0,damExp1.show_T,0.0
+966,86400.0,damExp1.use_constant_density,1.0
+967,86400.0,damExp1.use_deltaM,1.0
+968,86400.0,damExp1.use_inputFilter,1.0
+969,86400.0,damExp1.v_nominal,19.24500846862793
+970,86400.0,damExp1.y,0.49678030610084534
+971,86400.0,damExp1.yL,0.1666666716337204
+972,86400.0,damExp1.yU,0.6111111044883728
+973,86400.0,damExp1.y_actual,0.49678030610084534
+974,86400.0,damExp1.y_start,1.0
+975,86400.0,damExp2.A,0.010392304509878159
+976,86400.0,damExp2.ReC,4000.0
+977,86400.0,damExp2.a,-1.5099999904632568
+978,86400.0,damExp2.allowFlowReversal,1.0
+979,86400.0,damExp2.b,9.449999809265137
+980,86400.0,damExp2.deltaM,0.30000001192092896
+981,86400.0,damExp2.dp,14312.6806640625
+982,86400.0,damExp2.dpDamper_nominal,100.0
+983,86400.0,damExp2.dpFixed_nominal,0.0
+984,86400.0,damExp2.dp_nominal,100.0
+985,86400.0,damExp2.from_dp,0.0
+986,86400.0,damExp2.init,4.0
+987,86400.0,damExp2.k,0.0017749298131093383
+988,86400.0,damExp2.k0,45000000.0
+989,86400.0,damExp2.k1,0.44999998807907104
+990,86400.0,damExp2.kDam,0.0017749298131093383
+991,86400.0,damExp2.kFixed,3.4028234663852886e+38
+992,86400.0,damExp2.l,9.999999747378752e-05
+993,86400.0,damExp2.linearized,0.0
+994,86400.0,damExp2.m_flow,0.21234482526779175
+995,86400.0,damExp2.m_flow_nominal,0.23999999463558197
+996,86400.0,damExp2.m_flow_small,2.4000000848900527e-05
+997,86400.0,damExp2.m_flow_turbulent,0.07199999690055847
+998,86400.0,damExp2.order,2.0
+999,86400.0,damExp2.port_a.Xi_outflow[1],0.009999999776482582
+1000,86400.0,damExp2.port_a.h_outflow,45300.9453125
+1001,86400.0,damExp2.port_a.m_flow,0.21234482526779175
+1002,86400.0,damExp2.port_a.p,114352.7265625
+1003,86400.0,damExp2.port_b.Xi_outflow[1],0.009999999776482582
+1004,86400.0,damExp2.port_b.h_outflow,45300.9453125
+1005,86400.0,damExp2.port_b.m_flow,-0.21234482526779175
+1006,86400.0,damExp2.port_b.p,100040.046875
+1007,86400.0,damExp2.rho,1.2000000476837158
+1008,86400.0,damExp2.riseTime,3.0
+1009,86400.0,damExp2.roundDuct,0.0
+1010,86400.0,damExp2.show_T,0.0
+1011,86400.0,damExp2.use_constant_density,1.0
+1012,86400.0,damExp2.use_deltaM,1.0
+1013,86400.0,damExp2.use_inputFilter,1.0
+1014,86400.0,damExp2.v_nominal,19.24500846862793
+1015,86400.0,damExp2.y,1.0
+1016,86400.0,damExp2.yL,0.1666666716337204
+1017,86400.0,damExp2.yU,0.6111111044883728
+1018,86400.0,damExp2.y_actual,0.37353670597076416
+1019,86400.0,damExp2.y_start,1.0
+1020,86400.0,damExp3.A,0.009266471490263939
+1021,86400.0,damExp3.ReC,4000.0
+1022,86400.0,damExp3.a,-1.5099999904632568
+1023,86400.0,damExp3.allowFlowReversal,1.0
+1024,86400.0,damExp3.b,9.449999809265137
+1025,86400.0,damExp3.deltaM,0.30000001192092896
+1026,86400.0,damExp3.dp,206.4190673828125
+1027,86400.0,damExp3.dpDamper_nominal,100.0
+1028,86400.0,damExp3.dpFixed_nominal,0.0
+1029,86400.0,damExp3.dp_nominal,100.0
+1030,86400.0,damExp3.from_dp,0.0
+1031,86400.0,damExp3.init,4.0
+1032,86400.0,damExp3.k,0.012970073148608208
+1033,86400.0,damExp3.k0,45000000.0
+1034,86400.0,damExp3.k1,0.44999998807907104
+1035,86400.0,damExp3.kDam,0.012970073148608208
+1036,86400.0,damExp3.kFixed,3.4028234663852886e+38
+1037,86400.0,damExp3.l,9.999999747378752e-05
+1038,86400.0,damExp3.linearized,0.0
+1039,86400.0,damExp3.m_flow,0.18634483218193054
+1040,86400.0,damExp3.m_flow_nominal,0.21400000154972076
+1041,86400.0,damExp3.m_flow_small,2.13999992411118e-05
+1042,86400.0,damExp3.m_flow_turbulent,0.06419999897480011
+1043,86400.0,damExp3.order,2.0
+1044,86400.0,damExp3.port_a.Xi_outflow[1],0.009999999776482582
+1045,86400.0,damExp3.port_a.h_outflow,45300.9453125
+1046,86400.0,damExp3.port_a.m_flow,0.18634483218193054
+1047,86400.0,damExp3.port_a.p,100040.046875
+1048,86400.0,damExp3.port_b.Xi_outflow[1],0.009999999776482582
+1049,86400.0,damExp3.port_b.h_outflow,45300.9453125
+1050,86400.0,damExp3.port_b.m_flow,-0.18634483218193054
+1051,86400.0,damExp3.port_b.p,99833.625
+1052,86400.0,damExp3.rho,1.2000000476837158
+1053,86400.0,damExp3.riseTime,3.0
+1054,86400.0,damExp3.roundDuct,0.0
+1055,86400.0,damExp3.show_T,0.0
+1056,86400.0,damExp3.use_constant_density,1.0
+1057,86400.0,damExp3.use_deltaM,1.0
+1058,86400.0,damExp3.use_inputFilter,1.0
+1059,86400.0,damExp3.v_nominal,19.24500846862793
+1060,86400.0,damExp3.y,0.846259593963623
+1061,86400.0,damExp3.yL,0.1666666716337204
+1062,86400.0,damExp3.yU,0.6111111044883728
+1063,86400.0,damExp3.y_actual,0.846259593963623
+1064,86400.0,damExp3.y_start,1.0
+1065,86400.0,damExp4.A,0.012687272392213345
+1066,86400.0,damExp4.ReC,4000.0
+1067,86400.0,damExp4.a,-1.5099999904632568
+1068,86400.0,damExp4.allowFlowReversal,1.0
+1069,86400.0,damExp4.b,9.449999809265137
+1070,86400.0,damExp4.deltaM,0.30000001192092896
+1071,86400.0,damExp4.dp,14482.5400390625
+1072,86400.0,damExp4.dpDamper_nominal,100.0
+1073,86400.0,damExp4.dpFixed_nominal,0.0
+1074,86400.0,damExp4.dp_nominal,100.0
+1075,86400.0,damExp4.from_dp,0.0
+1076,86400.0,damExp4.init,4.0
+1077,86400.0,damExp4.k,0.0013772775419056416
+1078,86400.0,damExp4.k0,45000000.0
+1079,86400.0,damExp4.k1,0.44999998807907104
+1080,86400.0,damExp4.kDam,0.0013772775419056416
+1081,86400.0,damExp4.kFixed,3.4028234663852886e+38
+1082,86400.0,damExp4.l,9.999999747378752e-05
+1083,86400.0,damExp4.linearized,0.0
+1084,86400.0,damExp4.m_flow,0.1657463014125824
+1085,86400.0,damExp4.m_flow_nominal,0.2930000126361847
+1086,86400.0,damExp4.m_flow_small,2.9299999368959107e-05
+1087,86400.0,damExp4.m_flow_turbulent,0.08789999783039093
+1088,86400.0,damExp4.order,2.0
+1089,86400.0,damExp4.port_a.Xi_outflow[1],0.009999999776482582
+1090,86400.0,damExp4.port_a.h_outflow,45300.9453125
+1091,86400.0,damExp4.port_a.m_flow,0.1657463014125824
+1092,86400.0,damExp4.port_a.p,114517.7421875
+1093,86400.0,damExp4.port_b.Xi_outflow[1],0.009999999776482582
+1094,86400.0,damExp4.port_b.h_outflow,45300.9453125
+1095,86400.0,damExp4.port_b.m_flow,-0.1657463014125824
+1096,86400.0,damExp4.port_b.p,100035.203125
+1097,86400.0,damExp4.rho,1.2000000476837158
+1098,86400.0,damExp4.riseTime,180.0
+1099,86400.0,damExp4.roundDuct,0.0
+1100,86400.0,damExp4.show_T,0.0
+1101,86400.0,damExp4.use_constant_density,1.0
+1102,86400.0,damExp4.use_deltaM,1.0
+1103,86400.0,damExp4.use_inputFilter,1.0
+1104,86400.0,damExp4.v_nominal,19.24500846862793
+1105,86400.0,damExp4.y,0.0
+1106,86400.0,damExp4.yL,0.1666666716337204
+1107,86400.0,damExp4.yU,0.6111111044883728
+1108,86400.0,damExp4.y_actual,0.27762436866760254
+1109,86400.0,damExp4.y_start,1.0
+1110,86400.0,damExp5.A,0.011301631107926369
+1111,86400.0,damExp5.ReC,4000.0
+1112,86400.0,damExp5.a,-1.5099999904632568
+1113,86400.0,damExp5.allowFlowReversal,1.0
+1114,86400.0,damExp5.b,9.449999809265137
+1115,86400.0,damExp5.deltaM,0.30000001192092896
+1116,86400.0,damExp5.dp,420.9715270996094
+1117,86400.0,damExp5.dpDamper_nominal,100.0
+1118,86400.0,damExp5.dpFixed_nominal,0.0
+1119,86400.0,damExp5.dp_nominal,100.0
+1120,86400.0,damExp5.from_dp,0.0
+1121,86400.0,damExp5.init,4.0
+1122,86400.0,damExp5.k,0.0065186163410544395
+1123,86400.0,damExp5.k0,45000000.0
+1124,86400.0,damExp5.k1,0.44999998807907104
+1125,86400.0,damExp5.kDam,0.0065186163410544395
+1126,86400.0,damExp5.kFixed,3.4028234663852886e+38
+1127,86400.0,damExp5.l,9.999999747378752e-05
+1128,86400.0,damExp5.linearized,0.0
+1129,86400.0,damExp5.m_flow,0.13374629616737366
+1130,86400.0,damExp5.m_flow_nominal,0.26100000739097595
+1131,86400.0,damExp5.m_flow_small,2.6100000468431972e-05
+1132,86400.0,damExp5.m_flow_turbulent,0.07829999923706055
+1133,86400.0,damExp5.order,2.0
+1134,86400.0,damExp5.port_a.Xi_outflow[1],0.009999999776482582
+1135,86400.0,damExp5.port_a.h_outflow,45300.9453125
+1136,86400.0,damExp5.port_a.m_flow,0.13374629616737366
+1137,86400.0,damExp5.port_a.p,100035.203125
+1138,86400.0,damExp5.port_b.Xi_outflow[1],0.009999999776482582
+1139,86400.0,damExp5.port_b.h_outflow,45300.9453125
+1140,86400.0,damExp5.port_b.m_flow,-0.13374629616737366
+1141,86400.0,damExp5.port_b.p,99614.2265625
+1142,86400.0,damExp5.rho,1.2000000476837158
+1143,86400.0,damExp5.riseTime,180.0
+1144,86400.0,damExp5.roundDuct,0.0
+1145,86400.0,damExp5.show_T,0.0
+1146,86400.0,damExp5.use_constant_density,1.0
+1147,86400.0,damExp5.use_deltaM,1.0
+1148,86400.0,damExp5.use_inputFilter,1.0
+1149,86400.0,damExp5.v_nominal,19.24500846862793
+1150,86400.0,damExp5.y,0.6313101649284363
+1151,86400.0,damExp5.yL,0.1666666716337204
+1152,86400.0,damExp5.yU,0.6111111044883728
+1153,86400.0,damExp5.y_actual,0.6313101649284363
+1154,86400.0,damExp5.y_start,1.0
+1155,86400.0,der(C1),-1.125863313689024e-08
+1156,86400.0,der(C2),1.7502271631997246e-08
+1157,86400.0,der(C3),-3.18430903867295e-09
+1158,86400.0,eta_hp,0.9997000098228455
+1159,86400.0,eta_z,0.949999988079071
+1160,86400.0,fan11.P,12049.16015625
+1161,86400.0,fan11.T_start,293.1499938964844
+1162,86400.0,fan11.VMachine_flow,0.3823687434196472
+1163,86400.0,fan11.X_start[1],0.009999999776482582
+1164,86400.0,fan11.X_start[2],0.9900000095367432
+1165,86400.0,fan11.addPowerToMedium,0.0
+1166,86400.0,fan11.allowFlowReversal,1.0
+1167,86400.0,fan11.computePowerUsingSimilarityLaws,0.0
+1168,86400.0,fan11.constInput,0.7699999809265137
+1169,86400.0,fan11.constantMassFlowRate,0.7699999809265137
+1170,86400.0,fan11.dp,-15440.82421875
+1171,86400.0,fan11.dpMachine,15440.82421875
+1172,86400.0,fan11.dp_nominal,1900.0
+1173,86400.0,fan11.energyDynamics,1.0
+1174,86400.0,fan11.eta,0.49000000953674316
+1175,86400.0,fan11.etaHyd,0.699999988079071
+1176,86400.0,fan11.etaMot,0.699999988079071
+1177,86400.0,fan11.heatPort.Q_flow,0.0
+1178,86400.0,fan11.heatPort.T,293.1499938964844
+1179,86400.0,fan11.init,4.0
+1180,86400.0,fan11.inputType,3.0
+1181,86400.0,fan11.mSenFac,1.0
+1182,86400.0,fan11.m_flow,0.4491911232471466
+1183,86400.0,fan11.m_flow_actual,0.4491911232471466
+1184,86400.0,fan11.m_flow_in,0.39660000801086426
+1185,86400.0,fan11.m_flow_nominal,0.7699999809265137
+1186,86400.0,fan11.m_flow_small,7.699999696342275e-05
+1187,86400.0,fan11.m_flow_start,0.0
+1188,86400.0,fan11.massDynamics,1.0
+1189,86400.0,fan11.massFlowRates[1],0.7699999809265137
+1190,86400.0,fan11.nominalValuesDefineDefaultPressureCurve,0.0
+1191,86400.0,fan11.p_start,101325.0
+1192,86400.0,fan11.per.constantSpeed,1.0
+1193,86400.0,fan11.per.constantSpeed_rpm,1500.0
+1194,86400.0,fan11.per.havePressureCurve,0.0
+1195,86400.0,fan11.per.hydraulicEfficiency.V_flow[1],0.0
+1196,86400.0,fan11.per.hydraulicEfficiency.eta[1],0.699999988079071
+1197,86400.0,fan11.per.motorCooledByFluid,1.0
+1198,86400.0,fan11.per.motorEfficiency.V_flow[1],0.0
+1199,86400.0,fan11.per.motorEfficiency.eta[1],0.699999988079071
+1200,86400.0,fan11.per.power.P[1],0.0
+1201,86400.0,fan11.per.power.V_flow[1],0.0
+1202,86400.0,fan11.per.pressure.V_flow[1],0.0
+1203,86400.0,fan11.per.pressure.V_flow[2],0.0
+1204,86400.0,fan11.per.pressure.dp[1],0.0
+1205,86400.0,fan11.per.pressure.dp[2],0.0
+1206,86400.0,fan11.per.speed_nominal,1.0
+1207,86400.0,fan11.per.speed_rpm_nominal,1500.0
+1208,86400.0,fan11.per.speeds[1],1.0
+1209,86400.0,fan11.per.speeds_rpm[1],1500.0
+1210,86400.0,fan11.per.use_powerCharacteristic,0.0
+1211,86400.0,fan11.port_a.Xi_outflow[1],0.009999999776482582
+1212,86400.0,fan11.port_a.h_outflow,45300.9453125
+1213,86400.0,fan11.port_a.m_flow,0.4491911232471466
+1214,86400.0,fan11.port_a.p,99193.71875
+1215,86400.0,fan11.port_b.Xi_outflow[1],0.009999999776482582
+1216,86400.0,fan11.port_b.h_outflow,45300.9453125
+1217,86400.0,fan11.port_b.m_flow,-0.4491911232471466
+1218,86400.0,fan11.port_b.p,114634.5390625
+1219,86400.0,fan11.riseTime,30.0
+1220,86400.0,fan11.show_T,0.0
+1221,86400.0,fan11.stageInputs[1],0.7699999809265137
+1222,86400.0,fan11.substanceDynamics,1.0
+1223,86400.0,fan11.tau,1.0
+1224,86400.0,fan11.traceDynamics,1.0
+1225,86400.0,fan11.use_inputFilter,1.0
+1226,86400.0,fan11.y_actual,1.0
+1227,86400.0,fan11.y_start,0.0
+1228,86400.0,ori.A,0.004222000017762184
+1229,86400.0,ori.CD,0.6499999761581421
+1230,86400.0,ori.V_flow,0.007723103277385235
+1231,86400.0,ori.allowFlowReversal,1.0
+1232,86400.0,ori.dp,4.751948833465576
+1233,86400.0,ori.dp_turbulent,0.10000000149011612
+1234,86400.0,ori.forceErrorControlOnFlow,1.0
+1235,86400.0,ori.m,0.5
+1236,86400.0,ori.m_flow,0.009267724119126797
+1237,86400.0,ori.m_flow_nominal,0.00042514511733315885
+1238,86400.0,ori.m_flow_small,4.251451102277315e-08
+1239,86400.0,ori.port_a.Xi_outflow[1],0.009999999776482582
+1240,86400.0,ori.port_a.h_outflow,45300.9453125
+1241,86400.0,ori.port_a.m_flow,0.009267724119126797
+1242,86400.0,ori.port_a.p,100035.203125
+1243,86400.0,ori.port_b.Xi_outflow[1],0.009999999776482582
+1244,86400.0,ori.port_b.h_outflow,45300.9453125
+1245,86400.0,ori.port_b.m_flow,-0.009267724119126797
+1246,86400.0,ori.port_b.p,100030.4453125
+1247,86400.0,ori.rho,1.2000000476837158
+1248,86400.0,ori.show_T,0.0
+1249,86400.0,ori.useDefaultProperties,1.0
+1250,86400.0,ori.v,1.8292522430419922
+1251,86400.0,ori1.A,0.004222000017762184
+1252,86400.0,ori1.CD,0.6499999761581421
+1253,86400.0,ori1.V_flow,0.0077989231795072556
+1254,86400.0,ori1.allowFlowReversal,1.0
+1255,86400.0,ori1.dp,4.845709323883057
+1256,86400.0,ori1.dp_turbulent,0.10000000149011612
+1257,86400.0,ori1.forceErrorControlOnFlow,1.0
+1258,86400.0,ori1.m,0.5
+1259,86400.0,ori1.m_flow,0.009358707815408707
+1260,86400.0,ori1.m_flow_nominal,0.00042514511733315885
+1261,86400.0,ori1.m_flow_small,4.251451102277315e-08
+1262,86400.0,ori1.port_a.Xi_outflow[1],0.009999999776482582
+1263,86400.0,ori1.port_a.h_outflow,45300.9453125
+1264,86400.0,ori1.port_a.m_flow,0.009358707815408707
+1265,86400.0,ori1.port_a.p,100040.046875
+1266,86400.0,ori1.port_b.Xi_outflow[1],0.009999999776482582
+1267,86400.0,ori1.port_b.h_outflow,45300.9453125
+1268,86400.0,ori1.port_b.m_flow,-0.009358707815408707
+1269,86400.0,ori1.port_b.p,100035.203125
+1270,86400.0,ori1.rho,1.2000000476837158
+1271,86400.0,ori1.show_T,0.0
+1272,86400.0,ori1.useDefaultProperties,1.0
+1273,86400.0,ori1.v,1.8472106456756592
+1274,86400.0,ori5.A,0.0007800000021234155
+1275,86400.0,ori5.CD,0.6499999761581421
+1276,86400.0,ori5.V_flow,0.0020277525763958693
+1277,86400.0,ori5.allowFlowReversal,1.0
+1278,86400.0,ori5.dp,9.597658157348633
+1279,86400.0,ori5.dp_turbulent,0.10000000149011612
+1280,86400.0,ori5.forceErrorControlOnFlow,1.0
+1281,86400.0,ori5.m,0.5
+1282,86400.0,ori5.m_flow,0.002433303277939558
+1283,86400.0,ori5.m_flow_nominal,7.854410068830475e-05
+1284,86400.0,ori5.m_flow_small,7.854410455365723e-09
+1285,86400.0,ori5.port_a.Xi_outflow[1],0.009999999776482582
+1286,86400.0,ori5.port_a.h_outflow,45300.9453125
+1287,86400.0,ori5.port_a.m_flow,0.002433303277939558
+1288,86400.0,ori5.port_a.p,100040.046875
+1289,86400.0,ori5.port_b.Xi_outflow[1],0.009999999776482582
+1290,86400.0,ori5.port_b.h_outflow,45300.9453125
+1291,86400.0,ori5.port_b.m_flow,-0.002433303277939558
+1292,86400.0,ori5.port_b.p,100030.4453125
+1293,86400.0,ori5.rho,1.2000000476837158
+1294,86400.0,ori5.show_T,0.0
+1295,86400.0,ori5.useDefaultProperties,1.0
+1296,86400.0,ori5.v,2.5996828079223633
+1297,86400.0,realExpression.y,2003.611572265625
+1298,86400.0,realExpression1.y,2003.611572265625
+1299,86400.0,realExpression10.y,0.8847700953483582
+1300,86400.0,realExpression11.y,0.30000001192092896
+1301,86400.0,realExpression2.y,2003.611572265625
+1302,86400.0,realExpression3.y,0.06909999996423721
+1303,86400.0,realExpression4.y,0.18634483218193054
+1304,86400.0,realExpression5.y,0.13374629616737366
+1305,86400.0,realExpression6.y,0.06909999996423721
+1306,86400.0,realExpression7.y,0.18634483218193054
+1307,86400.0,realExpression8.y,0.13374629616737366
+1308,86400.0,realExpression9.y,0.5656870007514954
+1309,86400.0,realValue.showNumber,2003.611572265625
+1310,86400.0,realValue.significantDigits,2.0
+1311,86400.0,realValue2.showNumber,2003.611572265625
+1312,86400.0,realValue2.significantDigits,2.0
+1313,86400.0,realValue3.showNumber,2003.611572265625
+1314,86400.0,realValue3.significantDigits,2.0
+1315,86400.0,res0.allowFlowReversal,1.0
+1316,86400.0,res0.deltaM,0.30000001192092896
+1317,86400.0,res0.dp,30.447362899780273
+1318,86400.0,res0.dp_nominal,30.0
+1319,86400.0,res0.from_dp,1.0
+1320,86400.0,res0.k,0.0024830088950693607
+1321,86400.0,res0.linearized,0.0
+1322,86400.0,res0.m_flow,0.013701027259230614
+1323,86400.0,res0.m_flow_nominal,0.01360000018030405
+1324,86400.0,res0.m_flow_small,1.3600000556834857e-06
+1325,86400.0,res0.m_flow_turbulent,0.0040799998678267
+1326,86400.0,res0.port_a.Xi_outflow[1],0.009999999776482582
+1327,86400.0,res0.port_a.h_outflow,45300.9453125
+1328,86400.0,res0.port_a.m_flow,0.013701027259230614
+1329,86400.0,res0.port_a.p,100030.4453125
+1330,86400.0,res0.port_b.Xi_outflow[1],0.009999999776482582
+1331,86400.0,res0.port_b.h_outflow,45300.9453125
+1332,86400.0,res0.port_b.m_flow,-0.013701027259230614
+1333,86400.0,res0.port_b.p,100000.0
+1334,86400.0,res0.show_T,0.0
+1335,86400.0,res01.allowFlowReversal,1.0
+1336,86400.0,res01.deltaM,0.30000001192092896
+1337,86400.0,res01.dp,40.045021057128906
+1338,86400.0,res01.dp_nominal,40.0
+1339,86400.0,res01.from_dp,1.0
+1340,86400.0,res01.k,0.0022452170960605145
+1341,86400.0,res01.linearized,0.0
+1342,86400.0,res01.m_flow,0.014207988977432251
+1343,86400.0,res01.m_flow_nominal,0.0142000000923872
+1344,86400.0,res01.m_flow_small,1.4199999895936344e-06
+1345,86400.0,res01.m_flow_turbulent,0.004259999841451645
+1346,86400.0,res01.port_a.Xi_outflow[1],0.009999999776482582
+1347,86400.0,res01.port_a.h_outflow,45300.9453125
+1348,86400.0,res01.port_a.m_flow,0.014207988977432251
+1349,86400.0,res01.port_a.p,100040.046875
+1350,86400.0,res01.port_b.Xi_outflow[1],0.009999999776482582
+1351,86400.0,res01.port_b.h_outflow,45300.9453125
+1352,86400.0,res01.port_b.m_flow,-0.014207988977432251
+1353,86400.0,res01.port_b.p,100000.0
+1354,86400.0,res01.show_T,0.0
+1355,86400.0,res02.allowFlowReversal,1.0
+1356,86400.0,res02.deltaM,0.30000001192092896
+1357,86400.0,res02.dp,35.199310302734375
+1358,86400.0,res02.dp_nominal,35.0
+1359,86400.0,res02.from_dp,1.0
+1360,86400.0,res02.k,0.005408987402915955
+1361,86400.0,res02.linearized,0.0
+1362,86400.0,res02.m_flow,0.03209098428487778
+1363,86400.0,res02.m_flow_nominal,0.03200000151991844
+1364,86400.0,res02.m_flow_small,3.2000000373955118e-06
+1365,86400.0,res02.m_flow_turbulent,0.009600000455975533
+1366,86400.0,res02.port_a.Xi_outflow[1],0.009999999776482582
+1367,86400.0,res02.port_a.h_outflow,45300.9453125
+1368,86400.0,res02.port_a.m_flow,0.03209098428487778
+1369,86400.0,res02.port_a.p,100035.203125
+1370,86400.0,res02.port_b.Xi_outflow[1],0.009999999776482582
+1371,86400.0,res02.port_b.h_outflow,45300.9453125
+1372,86400.0,res02.port_b.m_flow,-0.03209098428487778
+1373,86400.0,res02.port_b.p,100000.0
+1374,86400.0,res02.show_T,0.0
+1375,86400.0,res1.allowFlowReversal,1.0
+1376,86400.0,res1.deltaM,0.30000001192092896
+1377,86400.0,res1.dp,500.0
+1378,86400.0,res1.dp_nominal,500.0
+1379,86400.0,res1.from_dp,1.0
+1380,86400.0,res1.k,0.0026832816656678915
+1381,86400.0,res1.linearized,0.0
+1382,86400.0,res1.m_flow,0.05999999865889549
+1383,86400.0,res1.m_flow_nominal,0.05999999865889549
+1384,86400.0,res1.m_flow_small,6.000000212225132e-06
+1385,86400.0,res1.m_flow_turbulent,0.017999999225139618
+1386,86400.0,res1.port_a.Xi_outflow[1],0.009999999776482582
+1387,86400.0,res1.port_a.h_outflow,45300.9453125
+1388,86400.0,res1.port_a.m_flow,0.05999999865889549
+1389,86400.0,res1.port_a.p,100000.0
+1390,86400.0,res1.port_b.Xi_outflow[1],0.009999999776482582
+1391,86400.0,res1.port_b.h_outflow,45300.9453125
+1392,86400.0,res1.port_b.m_flow,-0.05999999865889549
+1393,86400.0,res1.port_b.p,99500.0
+1394,86400.0,res1.show_T,0.0
+1395,86400.0,res2.allowFlowReversal,1.0
+1396,86400.0,res2.deltaM,0.30000001192092896
+1397,86400.0,res2.dp,306.2833557128906
+1398,86400.0,res2.dp_nominal,900.0
+1399,86400.0,res2.from_dp,1.0
+1400,86400.0,res2.k,0.02566666714847088
+1401,86400.0,res2.linearized,0.0
+1402,86400.0,res2.m_flow,0.4491911232471466
+1403,86400.0,res2.m_flow_nominal,0.7699999809265137
+1404,86400.0,res2.m_flow_small,7.699999696342275e-05
+1405,86400.0,res2.m_flow_turbulent,0.23100000619888306
+1406,86400.0,res2.port_a.Xi_outflow[1],0.009999999776482582
+1407,86400.0,res2.port_a.h_outflow,45300.9453125
+1408,86400.0,res2.port_a.m_flow,0.4491911232471466
+1409,86400.0,res2.port_a.p,99500.0
+1410,86400.0,res2.port_b.Xi_outflow[1],0.009999999776482582
+1411,86400.0,res2.port_b.h_outflow,45300.9453125
+1412,86400.0,res2.port_b.m_flow,-0.4491911232471466
+1413,86400.0,res2.port_b.p,99193.71875
+1414,86400.0,res2.show_T,0.0
+1415,86400.0,res3.allowFlowReversal,1.0
+1416,86400.0,res3.deltaM,0.30000001192092896
+1417,86400.0,res3.dp,33.29999923706055
+1418,86400.0,res3.dp_nominal,370.0
+1419,86400.0,res3.from_dp,1.0
+1420,86400.0,res3.k,0.012321043759584427
+1421,86400.0,res3.linearized,0.0
+1422,86400.0,res3.m_flow,0.07109999656677246
+1423,86400.0,res3.m_flow_nominal,0.2370000034570694
+1424,86400.0,res3.m_flow_small,2.370000038354192e-05
+1425,86400.0,res3.m_flow_turbulent,0.07109999656677246
+1426,86400.0,res3.port_a.Xi_outflow[1],0.009999999776482582
+1427,86400.0,res3.port_a.h_outflow,45300.9453125
+1428,86400.0,res3.port_a.m_flow,0.07109999656677246
+1429,86400.0,res3.port_a.p,114634.5390625
+1430,86400.0,res3.port_b.Xi_outflow[1],0.009999999776482582
+1431,86400.0,res3.port_b.h_outflow,45300.9453125
+1432,86400.0,res3.port_b.m_flow,-0.07109999656677246
+1433,86400.0,res3.port_b.p,114601.2421875
+1434,86400.0,res3.show_T,0.0
+1435,86400.0,res4.allowFlowReversal,1.0
+1436,86400.0,res4.deltaM,0.30000001192092896
+1437,86400.0,res4.dp,37.1823844909668
+1438,86400.0,res4.dp_nominal,430.0
+1439,86400.0,res4.from_dp,1.0
+1440,86400.0,res4.k,0.011332706548273563
+1441,86400.0,res4.linearized,0.0
+1442,86400.0,res4.m_flow,0.06909999996423721
+1443,86400.0,res4.m_flow_nominal,0.23499999940395355
+1444,86400.0,res4.m_flow_small,2.350000067963265e-05
+1445,86400.0,res4.m_flow_turbulent,0.07050000131130219
+1446,86400.0,res4.port_a.Xi_outflow[1],0.009999999776482582
+1447,86400.0,res4.port_a.h_outflow,45300.9453125
+1448,86400.0,res4.port_a.m_flow,0.06909999996423721
+1449,86400.0,res4.port_a.p,99537.1796875
+1450,86400.0,res4.port_b.Xi_outflow[1],0.009999999776482582
+1451,86400.0,res4.port_b.h_outflow,45300.9453125
+1452,86400.0,res4.port_b.m_flow,-0.06909999996423721
+1453,86400.0,res4.port_b.p,99500.0
+1454,86400.0,res4.show_T,0.0
+1455,86400.0,res5.allowFlowReversal,1.0
+1456,86400.0,res5.deltaM,0.30000001192092896
+1457,86400.0,res5.dp,281.8145446777344
+1458,86400.0,res5.dp_nominal,360.0
+1459,86400.0,res5.from_dp,1.0
+1460,86400.0,res5.k,0.0126491105183959
+1461,86400.0,res5.linearized,0.0
+1462,86400.0,res5.m_flow,0.21234482526779175
+1463,86400.0,res5.m_flow_nominal,0.23999999463558197
+1464,86400.0,res5.m_flow_small,2.4000000848900527e-05
+1465,86400.0,res5.m_flow_turbulent,0.07199999690055847
+1466,86400.0,res5.port_a.Xi_outflow[1],0.009999999776482582
+1467,86400.0,res5.port_a.h_outflow,45300.9453125
+1468,86400.0,res5.port_a.m_flow,0.21234482526779175
+1469,86400.0,res5.port_a.p,114634.5390625
+1470,86400.0,res5.port_b.Xi_outflow[1],0.009999999776482582
+1471,86400.0,res5.port_b.h_outflow,45300.9453125
+1472,86400.0,res5.port_b.m_flow,-0.21234482526779175
+1473,86400.0,res5.port_b.p,114352.7265625
+1474,86400.0,res5.show_T,0.0
+1475,86400.0,res6.allowFlowReversal,1.0
+1476,86400.0,res6.deltaM,0.30000001192092896
+1477,86400.0,res6.dp,333.6259460449219
+1478,86400.0,res6.dp_nominal,440.0
+1479,86400.0,res6.from_dp,1.0
+1480,86400.0,res6.k,0.010202049277722836
+1481,86400.0,res6.linearized,0.0
+1482,86400.0,res6.m_flow,0.18634483218193054
+1483,86400.0,res6.m_flow_nominal,0.21400000154972076
+1484,86400.0,res6.m_flow_small,2.13999992411118e-05
+1485,86400.0,res6.m_flow_turbulent,0.06419999897480011
+1486,86400.0,res6.port_a.Xi_outflow[1],0.009999999776482582
+1487,86400.0,res6.port_a.h_outflow,45300.9453125
+1488,86400.0,res6.port_a.m_flow,0.18634483218193054
+1489,86400.0,res6.port_a.p,99833.625
+1490,86400.0,res6.port_b.Xi_outflow[1],0.009999999776482582
+1491,86400.0,res6.port_b.h_outflow,45300.9453125
+1492,86400.0,res6.port_b.m_flow,-0.18634483218193054
+1493,86400.0,res6.port_b.p,99500.0
+1494,86400.0,res6.show_T,0.0
+1495,86400.0,res7.allowFlowReversal,1.0
+1496,86400.0,res7.deltaM,0.30000001192092896
+1497,86400.0,res7.dp,116.8006591796875
+1498,86400.0,res7.dp_nominal,365.0
+1499,86400.0,res7.from_dp,1.0
+1500,86400.0,res7.k,0.015336320735514164
+1501,86400.0,res7.linearized,0.0
+1502,86400.0,res7.m_flow,0.1657463014125824
+1503,86400.0,res7.m_flow_nominal,0.2930000126361847
+1504,86400.0,res7.m_flow_small,2.9299999368959107e-05
+1505,86400.0,res7.m_flow_turbulent,0.08789999783039093
+1506,86400.0,res7.port_a.Xi_outflow[1],0.009999999776482582
+1507,86400.0,res7.port_a.h_outflow,45300.9453125
+1508,86400.0,res7.port_a.m_flow,0.1657463014125824
+1509,86400.0,res7.port_a.p,114634.5390625
+1510,86400.0,res7.port_b.Xi_outflow[1],0.009999999776482582
+1511,86400.0,res7.port_b.h_outflow,45300.9453125
+1512,86400.0,res7.port_b.m_flow,-0.1657463014125824
+1513,86400.0,res7.port_b.p,114517.7421875
+1514,86400.0,res7.show_T,0.0
+1515,86400.0,res8.allowFlowReversal,1.0
+1516,86400.0,res8.deltaM,0.30000001192092896
+1517,86400.0,res8.dp,114.22779083251953
+1518,86400.0,res8.dp_nominal,435.0
+1519,86400.0,res8.from_dp,1.0
+1520,86400.0,res8.k,0.012513992376625538
+1521,86400.0,res8.linearized,0.0
+1522,86400.0,res8.m_flow,0.13374629616737366
+1523,86400.0,res8.m_flow_nominal,0.26100000739097595
+1524,86400.0,res8.m_flow_small,2.6100000468431972e-05
+1525,86400.0,res8.m_flow_turbulent,0.07829999923706055
+1526,86400.0,res8.port_a.Xi_outflow[1],0.009999999776482582
+1527,86400.0,res8.port_a.h_outflow,45300.9453125
+1528,86400.0,res8.port_a.m_flow,0.13374629616737366
+1529,86400.0,res8.port_a.p,99614.2265625
+1530,86400.0,res8.port_b.Xi_outflow[1],0.009999999776482582
+1531,86400.0,res8.port_b.h_outflow,45300.9453125
+1532,86400.0,res8.port_b.m_flow,-0.13374629616737366
+1533,86400.0,res8.port_b.p,99500.0
+1534,86400.0,res8.show_T,0.0
+1535,86400.0,senRelPre.p_rel,9.597658157348633
+1536,86400.0,senRelPre.port_a.Xi_outflow[1],0.0
+1537,86400.0,senRelPre.port_a.h_outflow,0.0
+1538,86400.0,senRelPre.port_a.m_flow,0.0
+1539,86400.0,senRelPre.port_a.p,100040.046875
+1540,86400.0,senRelPre.port_b.Xi_outflow[1],0.0
+1541,86400.0,senRelPre.port_b.h_outflow,0.0
+1542,86400.0,senRelPre.port_b.m_flow,0.0
+1543,86400.0,senRelPre.port_b.p,100030.4453125
+1544,86400.0,senRelPre1.p_rel,4.751948833465576
+1545,86400.0,senRelPre1.port_a.Xi_outflow[1],0.0
+1546,86400.0,senRelPre1.port_a.h_outflow,0.0
+1547,86400.0,senRelPre1.port_a.m_flow,0.0
+1548,86400.0,senRelPre1.port_a.p,100035.203125
+1549,86400.0,senRelPre1.port_b.Xi_outflow[1],0.0
+1550,86400.0,senRelPre1.port_b.h_outflow,0.0
+1551,86400.0,senRelPre1.port_b.m_flow,0.0
+1552,86400.0,senRelPre1.port_b.p,100030.4453125
+1553,86400.0,senRelPre2.p_rel,4.845709323883057
+1554,86400.0,senRelPre2.port_a.Xi_outflow[1],0.0
+1555,86400.0,senRelPre2.port_a.h_outflow,0.0
+1556,86400.0,senRelPre2.port_a.m_flow,0.0
+1557,86400.0,senRelPre2.port_a.p,100040.046875
+1558,86400.0,senRelPre2.port_b.Xi_outflow[1],0.0
+1559,86400.0,senRelPre2.port_b.h_outflow,0.0
+1560,86400.0,senRelPre2.port_b.m_flow,0.0
+1561,86400.0,senRelPre2.port_b.p,100035.203125
+1562,86400.0,senRelPre3.p_rel,30.447362899780273
+1563,86400.0,senRelPre3.port_a.Xi_outflow[1],0.0
+1564,86400.0,senRelPre3.port_a.h_outflow,0.0
+1565,86400.0,senRelPre3.port_a.m_flow,0.0
+1566,86400.0,senRelPre3.port_a.p,100030.4453125
+1567,86400.0,senRelPre3.port_b.Xi_outflow[1],0.0
+1568,86400.0,senRelPre3.port_b.h_outflow,0.0
+1569,86400.0,senRelPre3.port_b.m_flow,0.0
+1570,86400.0,senRelPre3.port_b.p,100000.0
+1571,86400.0,senRelPre4.p_rel,40.045021057128906
+1572,86400.0,senRelPre4.port_a.Xi_outflow[1],0.0
+1573,86400.0,senRelPre4.port_a.h_outflow,0.0
+1574,86400.0,senRelPre4.port_a.m_flow,0.0
+1575,86400.0,senRelPre4.port_a.p,100040.046875
+1576,86400.0,senRelPre4.port_b.Xi_outflow[1],0.0
+1577,86400.0,senRelPre4.port_b.h_outflow,0.0
+1578,86400.0,senRelPre4.port_b.m_flow,0.0
+1579,86400.0,senRelPre4.port_b.p,100000.0
+1580,86400.0,senRelPre5.p_rel,35.199310302734375
+1581,86400.0,senRelPre5.port_a.Xi_outflow[1],0.0
+1582,86400.0,senRelPre5.port_a.h_outflow,0.0
+1583,86400.0,senRelPre5.port_a.m_flow,0.0
+1584,86400.0,senRelPre5.port_a.p,100035.203125
+1585,86400.0,senRelPre5.port_b.Xi_outflow[1],0.0
+1586,86400.0,senRelPre5.port_b.h_outflow,0.0
+1587,86400.0,senRelPre5.port_b.m_flow,0.0
+1588,86400.0,senRelPre5.port_b.p,100000.0
+1589,86400.0,sinAir1.T,293.1499938964844
+1590,86400.0,sinAir1.X[1],0.009999999776482582
+1591,86400.0,sinAir1.X[2],0.9900000095367432
+1592,86400.0,sinAir1.nPorts,1.0
+1593,86400.0,sinAir1.p,100000.0
+1594,86400.0,sinAir1.ports[1].Xi_outflow[1],0.009999999776482582
+1595,86400.0,sinAir1.ports[1].h_outflow,45300.9453125
+1596,86400.0,sinAir1.ports[1].m_flow,-0.05999999865889549
+1597,86400.0,sinAir1.ports[1].p,100000.0
+1598,86400.0,sinAir1.verifyInputs,0.0
+1599,86400.0,sinAir2.T,293.1499938964844
+1600,86400.0,sinAir2.X[1],0.009999999776482582
+1601,86400.0,sinAir2.X[2],0.9900000095367432
+1602,86400.0,sinAir2.nPorts,6.0
+1603,86400.0,sinAir2.p,100000.0
+1604,86400.0,sinAir2.ports[1].Xi_outflow[1],0.009999999776482582
+1605,86400.0,sinAir2.ports[1].h_outflow,45300.9453125
+1606,86400.0,sinAir2.ports[1].m_flow,0.013701027259230614
+1607,86400.0,sinAir2.ports[1].p,100000.0
+1608,86400.0,sinAir2.ports[2].Xi_outflow[1],0.009999999776482582
+1609,86400.0,sinAir2.ports[2].h_outflow,45300.9453125
+1610,86400.0,sinAir2.ports[2].m_flow,0.014207988977432251
+1611,86400.0,sinAir2.ports[2].p,100000.0
+1612,86400.0,sinAir2.ports[3].Xi_outflow[1],0.009999999776482582
+1613,86400.0,sinAir2.ports[3].h_outflow,45300.9453125
+1614,86400.0,sinAir2.ports[3].m_flow,0.03209098428487778
+1615,86400.0,sinAir2.ports[3].p,100000.0
+1616,86400.0,sinAir2.ports[4].Xi_outflow[1],0.009999999776482582
+1617,86400.0,sinAir2.ports[4].h_outflow,45300.9453125
+1618,86400.0,sinAir2.ports[4].m_flow,0.0
+1619,86400.0,sinAir2.ports[4].p,100000.0
+1620,86400.0,sinAir2.ports[5].Xi_outflow[1],0.009999999776482582
+1621,86400.0,sinAir2.ports[5].h_outflow,45300.9453125
+1622,86400.0,sinAir2.ports[5].m_flow,0.0
+1623,86400.0,sinAir2.ports[5].p,100000.0
+1624,86400.0,sinAir2.ports[6].Xi_outflow[1],0.009999999776482582
+1625,86400.0,sinAir2.ports[6].h_outflow,45300.9453125
+1626,86400.0,sinAir2.ports[6].m_flow,0.0
+1627,86400.0,sinAir2.ports[6].p,100000.0
+1628,86400.0,sinAir2.verifyInputs,0.0
