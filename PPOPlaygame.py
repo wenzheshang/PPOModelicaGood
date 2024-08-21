@@ -71,7 +71,7 @@ class Game():
             # 增加总风量，由于总风量由各个分区风量确定，存在限制关系，因此不用神经网络输出，而又各个分区数值计算确定
             ac_behavior_re = np.concatenate((ac_behavior_r, np.array([ac_behavior_r[0]*0.237+ac_behavior_r[1]*0.240+ac_behavior_r[2]*0.293])))
             # 调用Modelica进行计算
-            (pm_i1,pm_i2,pm_i3,grp,gr1p,gr2p) = self.cal(ac_behavior_re, self.sourcepre['Time'][j],dymola,done)
+            (pm_i1,pm_i2,pm_i3,grp,gr1p,gr2p) = self.cal(ac_behavior_re, self.sourcepre['Time'][j],self.sourcepre['source1'][j],self.sourcepre['source2'][j],self.sourcepre['source3'][j],dymola,done)
             # 保存该时刻计算数据
             pm1_final.append(pm_i1)
             pm2_final.append(pm_i2)
@@ -87,10 +87,10 @@ class Game():
             s2_final.append(self.sourcepre['source2'][j])
             s3_final.append(self.sourcepre['source3'][j])
             # 最后一个时间步没有下一时刻人员量，因此定义为0
-            #if j < (len(self.sourcepre['Time'])-1):
-            state = [float((pm_i1-3000)/(176000-3000)), float((pm_i2-3000)/(176000-3000)), float((pm_i3-3000)/(176000-3000)), float(abs((grp-100030)/30)), float(abs((gr1p-100040)/30)), float(abs((gr2p-100035)/30)), self.sourcepre['source1'][j],self.sourcepre['source2'][j],self.sourcepre['source3'][j]]
-            # else:
-            #     state = [pm_i1/10000,pm_i2/10000,pm_i3/10000,abs(grp-100030),abs(gr1p-100040),abs(gr2p-100035),0,0,0]
+            if j < (len(self.sourcepre['Time'])-1):
+                state = [float((pm_i1-1000)/(176000-1000)), float((pm_i2-1000)/(176000-1000)), float((pm_i3-1000)/(176000-1000)), float(abs((grp-100030)/30)), float(abs((gr1p-100040)/30)), float(abs((gr2p-100035)/30)), self.sourcepre['source1'][j+1],self.sourcepre['source2'][j+1],self.sourcepre['source3'][j+1]]
+            else:
+                state = [float((pm_i1-1000)/(176000-1000)), float((pm_i2-1000)/(176000-1000)), float((pm_i3-1000)/(176000-1000)), float(abs((grp-100030)/30)), float(abs((gr1p-100040)/30)), float(abs((gr2p-100035)/30)),0,0,0]
             # 将每一步用于计算奖励的数据单独编制为表
             self.reward_result(state, supply_final, grp_final, gr1p_final, gr2p_final)
             # 保存所有时刻的计算数据
@@ -116,8 +116,8 @@ class Game():
         return
 
     def reward_result(self,state,supply_final, grp_final, gr1p_final, gr2p_final):
-        self.reward_dataframe = pd.DataFrame({'pm_weisheng':np.array([state[0]*173000+3000]), 'pm_wujun':np.array([state[1]*173000+3000]), 
-                                            'pm_huanchong':np.array([state[2]*173000+3000]), 'dp_weisheng':np.array(grp_final), 
+        self.reward_dataframe = pd.DataFrame({'pm_weisheng':np.array([state[0]*175000+1000]), 'pm_wujun':np.array([state[1]*175000+1000]), 
+                                            'pm_huanchong':np.array([state[2]*175000+1000]), 'dp_weisheng':np.array(grp_final), 
                                             'dp_wujun':np.array(gr1p_final), 'dp_huanchong':np.array(gr2p_final), 
                                             'supply':np.array(supply_final)})
     
@@ -132,7 +132,7 @@ class Game():
     def output_result(self, path = None):
         self.my_dataframe.to_csv(path)
 
-    def cal(self,ac,time,dymola,done):
+    def cal(self,ac,time,source1,source2,source3,dymola,done):
         ac_1=ac[0]
         ac_2=ac[1]
         ac_3=ac[2]
@@ -141,6 +141,9 @@ class Game():
 
         self.tablesource['time'].append(t)
         self.tablesource['supply'].append(supply)
+        self.tablesource['source1'].append(source1)
+        self.tablesource['source2'].append(source2)
+        self.tablesource['source3'].append(source3)
         self.tableac1['time'].append(t)
         self.tableac1['ac'].append(ac_1)
         self.tableac2['time'].append(t)

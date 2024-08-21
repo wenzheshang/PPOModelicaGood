@@ -142,20 +142,82 @@ def simulate(**kwargs):
 
             return c1,c2,c3,grp,gr2p,gr3p
 
-        for k in t:
-            if 0 <= k - ocbt['time'][len(ocbt['time'])-2] < 0.0001:
-                h = k
-                continue
-            if 0 <= k - ocbt['time'][len(ocbt['time'])-1] < 0.0001:
-                c1 = max(C1[lt.index(h):lt.index(k)])
-                c2 = max(C2[lt.index(h):lt.index(k)])
-                c3 = max(C3[lt.index(h):lt.index(k)])
-                grp = max(GRP[lt.index(h):lt.index(k)])
-                gr2p = max(GR2P[lt.index(h):lt.index(k)])
-                gr3p = max(GR3P[lt.index(h):lt.index(k)])
-                break
+        if ocbt['source1'][-2] > 0: #当大于0时选择时段内最大值
+            for k in t: # 寻找该时刻和前一时刻之内时段的最大值
+                if 0 <= k - ocbt['time'][len(ocbt['time'])-2] < 0.0001:
+                    h = k
+                    continue
+                if 0 <= k - ocbt['time'][len(ocbt['time'])-1] < 0.0001:
+                    c1 = max(C1[lt.index(h):lt.index(k)])
+                    Grp = []
+                    for i in range(len(GRP[lt.index(h):lt.index(k)])):
+                        Grp.append(GRP[lt.index(h):lt.index(k)][i]- 100030)
+                    grp = max(Grp,key=abs) + 100030
+                    break
+        else: #否则选择最接近该时刻数据
+            print('0')
+            c1 = C1[-1]
+            for k in t: # 寻找该时刻和前一时刻之内时段的最大值
+                if 0 <= k - ocbt['time'][len(ocbt['time'])-2] < 0.0001:
+                    h = k
+                    continue
+                if 0 <= k - ocbt['time'][len(ocbt['time'])-1] < 0.0001:
+                    Grp = []
+                    for i in range(len(GRP[lt.index(h):lt.index(k)])):
+                        Grp.append(GRP[lt.index(h):lt.index(k)][i]- 100030)
+                    grp = max(Grp,key=abs) + 100030
+                    break
         
-        if ((simulate.count / 25) + 1) % 10 == 0:
+        if ocbt['source2'][-2] > 0: #当大于0时选择时段内最大值
+            for k in t: # 寻找该时刻和前一时刻之内时段的最大值
+                if 0 <= k - ocbt['time'][len(ocbt['time'])-2] < 0.0001:
+                    h = k
+                    continue
+                if 0 <= k - ocbt['time'][len(ocbt['time'])-1] < 0.0001:
+                    c2 = max(C2[lt.index(h):lt.index(k)])  
+                    Gr2p = []
+                    for i in range(len(GR2P[lt.index(h):lt.index(k)])):
+                        Gr2p.append(GR2P[lt.index(h):lt.index(k)][i]- 100040)
+                    gr2p = max(Gr2p,key=abs) + 100040
+                    break
+        else: #否则选择最接近该时刻数据
+            c2 = C2[-1]
+            for k in t: # 寻找该时刻和前一时刻之内时段的最大值
+                if 0 <= k - ocbt['time'][len(ocbt['time'])-2] < 0.0001:
+                    h = k
+                    continue
+                if 0 <= k - ocbt['time'][len(ocbt['time'])-1] < 0.0001:
+                    Gr2p = []
+                    for i in range(len(GR2P[lt.index(h):lt.index(k)])):
+                        Gr2p.append(GR2P[lt.index(h):lt.index(k)][i]- 100040)
+                    gr2p = max(Gr2p,key=abs) + 100040
+                    break
+
+        if ocbt['source3'][-2] > 0: #当大于0时选择时段内最大值
+            for k in t: # 寻找该时刻和前一时刻之内时段的最大值
+                if 0 <= k - ocbt['time'][len(ocbt['time'])-2] < 0.0001:
+                    h = k
+                    continue
+                if 0 <= k - ocbt['time'][len(ocbt['time'])-1] < 0.0001:
+                    c3 = max(C3[lt.index(h):lt.index(k)])  
+                    Gr3p = []
+                    for i in range(len(GR3P[lt.index(h):lt.index(k)])):
+                        Gr3p.append(GR3P[lt.index(h):lt.index(k)][i]- 100035)
+                    gr3p = max(Gr3p,key=abs) + 100035
+                    break
+        else: #否则选择最接近该时刻数据
+            c3 = C3[-1]
+            for k in t: # 寻找该时刻和前一时刻之内时段的最大值
+                if 0 <= k - ocbt['time'][len(ocbt['time'])-2] < 0.0001:
+                    h = k
+                    continue
+                if 0 <= k - ocbt['time'][len(ocbt['time'])-1] < 0.0001:
+                    Gr3p = []
+                    for i in range(len(GR3P[lt.index(h):lt.index(k)])):
+                        Gr3p.append(GR3P[lt.index(h):lt.index(k)][i]- 100035)
+                    gr3p = max(Gr3p,key=abs) + 100035
+        
+        if ((simulate.count / 29) + 1) % 20 == 0:
             dymola.close()
             dymola = None
 

@@ -39,9 +39,9 @@ class Reward():
         # 参考文献给出的连续reward函数，特点是在132（限值3/4）处取最大值1，向两侧减少，越接近132，reward增大速度越快
         pm_use = pm/1000
         if pm_use > 176:
-            reward = -3.5
+            reward = -3.8#-3.5
         else:
-            reward = math.exp(-(pm_use-132)*(pm_use-132)/(54*54))
+            reward = math.exp(-(pm_use-49.77)*(pm_use-49.77)/(2*46*46))
 
         # if pm>75:
         #     reward = -100
@@ -64,19 +64,19 @@ class Reward():
         return reward
 
     def cal_dp_reward(self, dp, guideline = 27.5, std = 0.7):
-        reward = (30-abs(dp-100030))/30
+        reward = (70-abs(dp-100030))/70
         #参考文献给出dp奖励函数
         #G1:30,G2:40,G3:35
         return reward
     
     def cal_dp1_reward(self, dp, guideline = 27.5, std = 0.7):
-        reward = (30-abs(dp-100040))/30
+        reward = (70-abs(dp-100040))/70
         #参考文献给出dp奖励函数
         #G1:30,G2:40,G3:35
         return reward
 
     def cal_dp2_reward(self, dp, guideline = 27.5, std = 0.7):
-        reward = (30-abs(dp-100035))/30
+        reward = (70-abs(dp-100035))/70
         #参考文献给出dp奖励函数
         #G1:30,G2:40,G3:35
         return reward

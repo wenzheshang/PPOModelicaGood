@@ -1,5 +1,5 @@
 Log-file of program ./dymosim
-(generated: Mon Jul 01 02:26:56 2024)
+(generated: Wed Aug 21 10:59:20 2024)
 
 dymosim started
 ... "dsin.txt" loading (dymosim input file)
@@ -11,25 +11,25 @@ The following was detected at time: 0
              consumption. Add the correct pressure curve in the record per
              to obtain an accurate computation.
              Setting nominalValuesDefineDefaultPressureCurve=true will suppress this warning.
-... "f:\\Thinking\\program\\PPOOPT_Modelica_good/Workdata/Dymola_python/2024-06-30_15-29\\demo_results.mat" creating (simulation result file)
+... "f:\\Thinking\\program\\PPOOPT_Modelica_good/Workdata/Dymola_python/2024-08-21_10-58\\demo_results.mat" creating (simulation result file)
 
 Integration started at T = 0 using integration method DASSL
 (DAE multi-step solver (dassl/dasslrt of Petzold modified by Dynasim))
-Integration terminated successfully at T = 86400
-   CPU-time for integration      : 0.727 seconds
-   CPU-time for one GRID interval: 1.45 milli-seconds
-   Number of result points       : 554
+Integration terminated successfully at T = 21600
+   CPU-time for integration      : 0.184 seconds
+   CPU-time for one GRID interval: 0.368 milli-seconds
+   Number of result points       : 510
    Number of GRID   points       : 501
-   Number of (successful) steps  : 2905
-   Number of F-evaluations       : 42186
-   Number of H-evaluations       : 3461
-   Number of Jacobian-evaluations: 2314
-   Number of (model) time events : 25
+   Number of (successful) steps  : 580
+   Number of F-evaluations       : 8214
+   Number of H-evaluations       : 1115
+   Number of Jacobian-evaluations: 449
+   Number of (model) time events : 2
    Number of (U) time events     : 0
    Number of state    events     : 3
    Number of step     events     : 0
    Minimum integration stepsize  : 5.85e-011
-   Maximum integration stepsize  : 1.08e+004
-   Maximum integration order     : 2
+   Maximum integration stepsize  : 4.72e+003
+   Maximum integration order     : 3
 Calling terminal section
 ... "dsfinal.txt" creating (final states)

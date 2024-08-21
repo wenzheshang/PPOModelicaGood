@@ -197,8 +197,11 @@ class PPO(object):
         action_log_prob = dist.log_prob(action)
         action = action.clamp(0, 1)
         action = action.numpy()
-        #action = np.around(action,4)
-        #action = np.array([1.0,1.0,1.0])
+        action = np.around(action,4)
+        # #if s[-1]+s[-2]+s[-3] != 0:
+        #     action = np.array([1.0,1.0,1.0])
+        # # else:
+        # #     action = np.array([0,0,0])
         return action, action_log_prob.numpy()
 
     def get_v(self, s):

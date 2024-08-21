@@ -89,7 +89,7 @@ def run(args):
     dymola.openModel('F:/Thinking/program/PPOOPT_Modelica_good/mo/DQLVentilation.mo')
     
     for i in range(args.epoch):  # 迭代epoch回合
-        if (i+1) % 10 == 0:
+        if (i+1) % 20 == 0:
             # 构建模拟句柄，用于传递
             dymola = DymolaInterface()
             #打开Library
@@ -122,7 +122,8 @@ def run(args):
         state 8：无菌间当前时刻人员量
         state 9：缓冲间当前时刻人员量
         """
-        state = np.array([float((pm_i1-3000)/(176000-3000)), float((pm_i2-3000)/(176000-3000)), float((pm_i3-3000)/(176000-3000)), float(abs((grp-100030)/30)), float(abs((gr1p-100040)/30)), float(abs((gr2p-100035)/30)),0,0,0])
+        state = np.array([float((pm_i1-1000)/(176000-1000)), float((pm_i2-1000)/(176000-1000)), float((pm_i3-1000)/(176000-1000)), 
+        float(abs((grp-100030)/30)), float(abs((gr1p-100040)/30)), float(abs((gr2p-100035)/30)),0,0,0])
         done = False  # 环境中回合结束标记
 
         count = 0 # 记录计算时间步
@@ -289,8 +290,8 @@ if __name__ == '__main__':
     # Training config
     parser.add_argument('--epoch', default=1000, type=int)
     parser.add_argument('--BATCH', default=128, type=int)
-    parser.add_argument('--actor_lr', default=1e-4, type=float) #actor网络学习率
-    parser.add_argument('--critic_lr', default=1e-3, type=float) #critic网络学习率
+    parser.add_argument('--actor_lr', default=2e-4, type=float) #actor网络学习率
+    parser.add_argument('--critic_lr', default=2e-3, type=float) #critic网络学习率
     parser.add_argument('--gamma', default=0.95, type=float) #奖励因子折扣系数
     parser.add_argument('--w_pm', default=6, type=float) #PM在奖励中的权重
     parser.add_argument('--w_energy', default=8, type=float) #能耗在奖励中的权重

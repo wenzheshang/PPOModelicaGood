@@ -8,6 +8,11 @@ import os
 import time
 import torch
 
+a = [-5,3,2,1]
+c = max(a,key=abs)
+
+print(c)
+
 mu = torch.tensor([0.4,0.2,0.3])
 std = torch.tensor([2,3,5])
 # 构造高斯分布

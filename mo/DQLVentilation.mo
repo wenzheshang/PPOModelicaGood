@@ -1509,12 +1509,13 @@ package DQLVentilation
           origin={28,-42})));
 
     Modelica.Blocks.Sources.CombiTimeTable combiTimeTable(smoothness=Modelica.Blocks.Types.Smoothness.ConstantSegments, table=[0,
-          0.231,0,0,0; 25200,0,0,0,0; 28740,0,0,0,0; 28800,0,0,0,3; 30540,0,0,0,
-          3; 30600,0,1,2,0; 36000,0,1,2,0; 36060,0,1,2,1; 37800,0,1,2,1; 37860,
-          0,1,2,0; 43140,0,1,2,0; 43200,0,0,0,3; 44940,0,0,0,3; 45000,0,0,0,0;
-          48540,0,0,0,0; 48600,0,2,1,0; 53940,0,2,1,0; 54000,0,2,1,1; 55740,0,2,
-          1,1; 55800,0,2,1,0; 64740,0,2,1,0; 64800,0,0,0,3; 66540,0,0,0,3;
-          66600,0,0,0,0; 68400,0,0,0,0; 86400,0,0,0,0])
+          0.231,0,0,0; 7200,0,0,0,0; 21600,0,0,0,0; 25200,0,0,0,0; 28740,0,0,0,
+          0; 28800,0,0,0,3; 30540,0,0,0,3; 30600,0,1,2,0; 36000,0,1,2,0; 36060,
+          0,1,2,1; 37800,0,1,2,1; 37860,0,1,2,0; 43140,0,1,2,0; 43200,0,0,0,3;
+          44940,0,0,0,3; 45000,0,0,0,0; 48540,0,0,0,0; 48600,0,2,1,0; 53940,0,2,
+          1,0; 54000,0,2,1,1; 55740,0,2,1,1; 55800,0,2,1,0; 64740,0,2,1,0;
+          64800,0,0,0,3; 66540,0,0,0,3; 66600,0,0,0,0; 68400,0,0,0,0; 70200,0,0,
+          0,0; 73800,0,0,0,0; 86400,0,0,0,0])
       annotation (Placement(transformation(extent={{-82,98},{-62,118}})));
     Modelica.Blocks.Interaction.Show.RealValue realValue
       annotation (Placement(transformation(extent={{-30,34},{-10,54}})));
@@ -1579,25 +1580,25 @@ package DQLVentilation
           0.032)
       annotation (Placement(transformation(extent={{-86,20},{-66,40}})));
     Modelica.Blocks.Sources.CombiTimeTable combiTimeTable_huanchong(smoothness=
-          Modelica.Blocks.Types.Smoothness.ConstantSegments, table=[0,0.3;
-          25200,0; 28740,0; 28800,0; 30540,0; 30600,0; 36000,0; 36060,0; 37800,
-          0; 37860,0; 43140,0; 43200,0; 44940,0; 45000,0; 48540,0; 48600,0;
-          53940,0; 54000,0; 55740,0; 55800,0; 64740,0; 64800,0; 66540,0; 66600,
-          0; 68400,0; 86400,0])
-      annotation (Placement(transformation(extent={{90,78},{74,94}})));
+          Modelica.Blocks.Types.Smoothness.ConstantSegments, table=[0,0.3; 7200,
+          0; 21600,0; 25200,0; 28740,0; 28800,0; 30540,0; 30600,0; 36000,0;
+          36060,0; 37800,0; 37860,0; 43140,0; 43200,0; 44940,0; 45000,0; 48540,
+          0; 48600,0; 53940,0; 54000,0; 55740,0; 55800,0; 64740,0; 64800,0;
+          66540,0; 66600,0; 68400,0; 70200,0; 73800,0; 86400,0])
+      annotation (Placement(transformation(extent={{90,80},{74,96}})));
     Modelica.Blocks.Sources.CombiTimeTable combiTimeTable_weisheng(smoothness=
-          Modelica.Blocks.Types.Smoothness.ConstantSegments, table=[0,0.3;
-          25200,0; 28740,0; 28800,0; 30540,0; 30600,0; 36000,0; 36060,0; 37800,
-          0; 37860,0; 43140,0; 43200,0; 44940,0; 45000,0; 48540,0; 48600,0;
-          53940,0; 54000,0; 55740,0; 55800,0; 64740,0; 64800,0; 66540,0; 66600,
-          0; 68400,0; 86400,0])
+          Modelica.Blocks.Types.Smoothness.ConstantSegments, table=[0,0.3; 7200,
+          0; 21600,0; 25200,0; 28740,0; 28800,0; 30540,0; 30600,0; 36000,0;
+          36060,0; 37800,0; 37860,0; 43140,0; 43200,0; 44940,0; 45000,0; 48540,
+          0; 48600,0; 53940,0; 54000,0; 55740,0; 55800,0; 64740,0; 64800,0;
+          66540,0; 66600,0; 68400,0; 70200,0; 73800,0; 86400,0])
       annotation (Placement(transformation(extent={{-152,-16},{-136,0}})));
     Modelica.Blocks.Sources.CombiTimeTable combiTimeTable_wujun(smoothness=
-          Modelica.Blocks.Types.Smoothness.ConstantSegments, table=[0,0.3;
-          25200,0; 28740,0; 28800,0; 30540,0; 30600,0; 36000,0; 36060,0; 37800,
-          0; 37860,0; 43140,0; 43200,0; 44940,0; 45000,0; 48540,0; 48600,0;
-          53940,0; 54000,0; 55740,0; 55800,0; 64740,0; 64800,0; 66540,0; 66600,
-          0; 68400,0; 86400,0])
+          Modelica.Blocks.Types.Smoothness.ConstantSegments, table=[0,0.3; 7200,
+          0; 21600,0; 25200,0; 28740,0; 28800,0; 30540,0; 30600,0; 36000,0;
+          36060,0; 37800,0; 37860,0; 43140,0; 43200,0; 44940,0; 45000,0; 48540,
+          0; 48600,0; 53940,0; 54000,0; 55740,0; 55800,0; 64740,0; 64800,0;
+          66540,0; 66600,0; 68400,0; 70200,0; 73800,0; 86400,0])
       annotation (Placement(transformation(extent={{172,-12},{156,4}})));
     Buildings.Controls.Continuous.LimPID conPID2(
       controllerType=Modelica.Blocks.Types.SimpleController.PID,
@@ -1800,7 +1801,8 @@ package DQLVentilation
     connect(combiTimeTable.y[1], fan11.m_flow_in) annotation (Line(points={{-61,108},
             {-28,108},{-28,81.6}},                               color={0,0,127}));
     connect(combiTimeTable_huanchong.y[1], conPID2.u_s)
-      annotation (Line(points={{73.2,86},{63.2,86}}, color={0,0,127}));
+      annotation (Line(points={{73.2,88},{68,88},{68,86},{63.2,86}},
+                                                     color={0,0,127}));
     connect(realExpression9.y, conPID2.u_m)
       annotation (Line(points={{65,64},{56,64},{56,78.8}}, color={0,0,127}));
     connect(conPID2.y, damExp4.y) annotation (Line(points={{49.4,86},{42,86},{42,
